@@ -5,16 +5,36 @@ parent: App Engine Management Center
 nav_order: 20
 ---
 
-# 2) Pipeline and Deployment Setup
+# Pipeline and Deployment Setup
+{: .no_toc }
 
-**Duration: 60 minutes**
+**Duration: TBD minutes**
+{: .no_toc }
 
-## Introduction
+## Table of contents
+{: .no_toc .text-delta }
 
-In the first section, we will create two tables. Our first table will be used to capture the Travel Requests coming in from employees, and our second table will be used to store all the major airports and cities that can be traveled to. We will assume that all Travel Requests will only be for air travel.
+1. TOC
+{:toc}
 
-## Let's start
+---
 
-1. Click **All**, then search and click **App Engine Studio**
+## Change current scope to "Deployment Pipeline"
 
-1. Click **Create app** on the top right of the screen
+## Configure Prod
+
+### Install the "Deployment Pipeline" plugin
+- com.snc.deployment-pipeline
+### Configure credentials
+### Configure environments
+### Configure pipelines
+### Add users to "App Engine Admins" group
+- Ensure membership is consistent with Dev
+
+## Configure sub-prod instances
+
+### Install the "Deployment Pipeline" plugin
+- com.snc.deployment-pipeline
+### Configure credentials
+### Configure controller instance
+### Enable ATF if on Test instance

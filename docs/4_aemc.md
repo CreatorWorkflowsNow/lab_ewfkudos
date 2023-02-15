@@ -1,21 +1,26 @@
 ---
 layout: default
-title: 4) Collaboration and delegated development
+title: 4) Collaboration and Delegated Development
 parent: App Engine Management Center
 nav_order: 40
 ---
 
-# 4) Collaboration and delegated development
+# Collaboration and Delegated Development
+{: .no_toc }
 
-**Duration: 60 minutes**
+**Duration: TBD minutes**
+{: .no_toc }
 
-## Introduction
+## Table of contents
+{: .no_toc .text-delta }
 
-In the first section, we will create two tables. Our first table will be used to capture the Travel Requests coming in from employees, and our second table will be used to store all the major airports and cities that can be traveled to. We will assume that all Travel Requests will only be for air travel.
+1. TOC
+{:toc}
 
-## Let's start
+---
 
-1. Click **All**, then search and click **App Engine Studio**
+# first thing
 
-1. Click **Create app** on the top right of the screen
+# second thing
 
+## another thing

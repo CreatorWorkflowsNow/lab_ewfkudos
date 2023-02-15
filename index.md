@@ -13,12 +13,3 @@ In this lab, you will get hands-on experience setting up and managing AEMC.
 
 We will cover concepts such as Pipelines and Deployments, Onboarding Developers, and Collaborations.
 {: .fs-6 .fw-300 }
-
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-    C-->E;
-```

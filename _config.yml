@@ -60,8 +60,6 @@ exclude:
 ################################################################################
 
 #   https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#publishing-your-site-on-github-pages)
-#aux_links: # remove if you don't want this link to appear on your pages
-#  Template Repository: https://github.com/creatorworkflowsnow
 
 # Set a path/url to a logo that will be displayed instead of the title
 logo: "docs/images/servicenow-logo.png"
@@ -111,12 +109,12 @@ mermaid:
 heading_anchors: true
 
 # Aux links for the upper right navigation
-#aux_links:
-#  "Lab Guide Home":
-#    - "https://creatorworkflowsnow.github.io/"
+aux_links:
+  "Lab Guide Home":
+    - "https://creatorworkflowsnow.github.io/"
 
 # Makes Aux links open in a new tab. Default is false
-aux_links_new_tab: true
+aux_links_new_tab: false
 
 # Sort order for navigation links
 # nav_sort: case_insensitive # default, equivalent to nil
@@ -124,11 +122,11 @@ nav_sort: case_sensitive # Capital letters sorted before lowercase
 
 # External navigation links
 nav_external_links:
-  - title: Lab Guide Home
-    url: https://creatorworkflowsnow.github.io/
-    hide_icon: true # set to true to hide the external link icon - defaults to false
-  - title: App Engine Studio - System Administrator Guide
-    url: https://nowlearning.servicenow.com/nowcreate?id=nc_asset&asset_id=c0054e4487425954d3be437e0ebb35f9
+#  - title: Lab Guide Home
+#    url: https://creatorworkflowsnow.github.io/
+#    hide_icon: true # set to true to hide the external link icon - defaults to false
+#  - title: App Engine Studio - System Administrator Guide
+#    url: https://nowlearning.servicenow.com/nowcreate?id=nc_asset&asset_id=c0054e4487425954d3be437e0ebb35f9
 #  - title: Learn more about Creator Workflows
 #    url: https://www.servicenow.com/workflows/creator-workflows.html
 #    hide_icon: false # set to true to hide the external link icon - defaults to false

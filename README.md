@@ -20,7 +20,7 @@ Concepts include Pipelines and Deployments, Onboarding Developers, and App Colla
 
 Lab Guide: https://creatorworkflowsnow.github.io/lab_aemc
 
-AEMC Documentation: https://docs.servicenow.com/csh?topicname=monitor-requests-using-aemc.html&version=latest*
+AEMC Documentation: https://docs.servicenow.com/csh?topicname=monitor-requests-using-aemc.html&version=latest
 
 ---
 ## Features Include

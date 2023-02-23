@@ -1,8 +1,8 @@
 ---
 layout: default
-title: 1) App Engine Studio Setup
-parent: Lab 1
-nav_order: 10
+title: AES Setup
+parent: Lab 1 | App Engine Studio
+nav_order: 50
 ---
 
 # App Engine Studio Setup

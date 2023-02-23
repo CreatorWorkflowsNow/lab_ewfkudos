@@ -146,7 +146,7 @@ back_to_top_text: "Back to top"
 
 # Note: The footer_content option is deprecated and will be removed in a future major release. Please use `_includes/footer_custom.html` for more robust
 #markup / liquid-based content.
-footer_content: "Copyright &copy; 2022 <a href=\"https://www.servicenow.com\">ServiceNow</a>."
+footer_content: "&copy;2023 <a href=\"https://www.servicenow.com\" target=\"_blank\">ServiceNow</a>. All rights reserved."
 
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
@@ -157,15 +157,16 @@ last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https:/
 gh_edit_link: false # [false/true] # show or hide edit this page link
 gh_edit_link_text: "Edit this page on GitHub."
 #gh_edit_repository: "https://github.com/just-the-docs/just-the-docs" # the github URL for your repo
-gh_edit_repository: "https://github.com/CreatorWorkflowsNow/CreatorWorkflowsNow.github.io" # the github URL for your repo
-gh_edit_branch: "main" # the branch that your docs is served from
+gh_edit_repository: "https://github.com/CreatorWorkflowsNow/lab_aemc"
+gh_edit_branch: "master" # the branch that your docs is served from
 # gh_edit_source: docs # the source that your files originate from
-gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
+gh_edit_view_mode: "edit" # "tree" or "edit" if you want the user to jump into the editor immediately
 
 # Color scheme currently only supports "dark", "light"/nil (default), or a custom scheme that you define
 color_scheme: nil
 
 callouts_level: quiet # or loud
+#callouts_level: loud # or quiet
 callouts:
   highlight:
     color: yellow

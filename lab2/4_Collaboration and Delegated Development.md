@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 4) Collaboration and Delegated Development
-parent: Lab 2
+parent: Lab 2 | AEMC Setup
 nav_order: 40
 ---
 

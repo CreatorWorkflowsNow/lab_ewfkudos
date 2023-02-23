@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 6) App Deployment Requests
-parent: Lab 2
+parent: Lab 2 | AEMC Setup
 nav_order: 60
 ---
 

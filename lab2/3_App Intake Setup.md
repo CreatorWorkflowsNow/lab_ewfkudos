@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 3) App Intake Setup
-parent: Lab 2
+parent: Lab 2 | AEMC Setup
 nav_order: 30
 ---
 

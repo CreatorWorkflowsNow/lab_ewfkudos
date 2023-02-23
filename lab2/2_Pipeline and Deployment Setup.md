@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 2) Pipeline and Deployment Setup
-parent: Lab 2
+parent: Lab 2 | AEMC Setup | AEMC Setup
 nav_order: 20
 ---
 

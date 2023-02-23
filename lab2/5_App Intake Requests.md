@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 5) App Intake Requests
-parent: Lab 2
+parent: Lab 2 | AEMC Setup
 nav_order: 50
 ---
 

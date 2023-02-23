@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 7) Promote an app in a pipeline
-parent: Lab 2
+parent: Lab 2 | AEMC Setup
 nav_order: 70
 ---
 

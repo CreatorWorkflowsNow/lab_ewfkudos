@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 8) Review and test an application
-parent: Lab 2
+parent: Lab 2 | AEMC Setup
 nav_order: 80
 ---
 

@@ -4,8 +4,17 @@ title: AES Personas & Roles
 parent: Lab 1 | App Engine Studio
 nav_order: 20
 ---
+
 # Personas and Roles
+{: .no_toc }
 {: .fs-10 }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
 # System Administrator
 ## Responsibilities
 - Install and configure App Engine Studio and dependencies
@@ -17,7 +26,8 @@ nav_order: 20
 definitions for the platform
 - Collaborate with App Engine Studio Administrator(s) to resolve application conflicts that arise on the platform
 
-## Role required: admin
+## Role required: 
+- admin
 
 # App Engine Studio Administrator
 ## Responsibilities
@@ -54,3 +64,10 @@ platform
 - atf_test_admin
 - scan_admin
 
+
+[Previous][PREVIOUS]{: .btn .mr-4 }
+[Next][NEXT]{: .btn .btn-purple }
+
+
+[PREVIOUS]: ../0_Overview
+[NEXT]: ../50_App_Engine_Studio_Setup

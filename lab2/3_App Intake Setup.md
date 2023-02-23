@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 3) App Intake Setup
-parent: Lab 1
+parent: Lab 2
 nav_order: 30
 ---
 

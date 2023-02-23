@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 2) Pipeline and Deployment Setup
-parent: Lab 1
+parent: Lab 2
 nav_order: 20
 ---
 

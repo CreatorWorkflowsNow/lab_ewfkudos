@@ -1,7 +1,6 @@
 ---
 layout: default
-title: 13) FAQs
-parent: Overview
+title: FAQs
 nav_order: 130
 ---
 

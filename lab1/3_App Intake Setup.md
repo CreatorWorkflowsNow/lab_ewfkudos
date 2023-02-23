@@ -8,7 +8,7 @@ nav_order: 30
 # App Intake Setup
 {: .no_toc }
 
-**Duration: TBD minutes**
+**Duration: 30 minutes**
 {: .no_toc }
 
 ## Table of contents

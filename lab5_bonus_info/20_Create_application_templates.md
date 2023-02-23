@@ -1,14 +1,14 @@
 ---
 layout: default
-title: 3) App Intake Setup
-parent: Lab 2
-nav_order: 30
+title: Create application templates
+parent: Lab 5 | Bonus
+nav_order: 20
 ---
 
-# App Intake Setup
+# Create application templates
 {: .no_toc }
 
-**Duration: 30 minutes**
+**Duration: TBD minutes**
 {: .no_toc }
 
 ## Table of contents

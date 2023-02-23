@@ -1,11 +1,11 @@
 ---
 layout: default
-title: 7) Promote an app in a pipeline
-parent: Lab 2
-nav_order: 70
+title: Review and test an application
+parent: Lab 4 | App Deployment
+nav_order: 30
 ---
 
-# Promote an app in a pipeline
+# Review and test an application
 {: .no_toc }
 
 **Duration: TBD minutes**

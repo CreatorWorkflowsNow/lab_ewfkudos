@@ -1,11 +1,11 @@
 ---
 layout: default
-title: 4) Collaboration and Delegated Development
-parent: Lab 2
-nav_order: 40
+title: App Deployment Requests
+parent: Lab 4 | App Deployment
+nav_order: 10
 ---
 
-# Collaboration and Delegated Development
+# App Deployment Requests
 {: .no_toc }
 
 **Duration: TBD minutes**

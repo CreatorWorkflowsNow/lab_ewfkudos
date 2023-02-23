@@ -1,8 +1,8 @@
 ---
 layout: default
-title: AES Setup
-parent: Lab 1 | App Engine Studio
-nav_order: 50
+title: App Engine Studio Setup
+parent: Lab 1 | Configure AES
+nav_order: 15
 ---
 
 # App Engine Studio Setup
@@ -39,3 +39,10 @@ nav_order: 50
 ## Grant access to other users in dev
 
 - Add them to "App Engine Users" in dev
+
+[Previous][PREVIOUS]{: .btn .mr-4 }
+[Lab 2][NEXT]{: .btn .btn-purple }
+
+
+[PREVIOUS]: ../10_Personas_and_roles
+[NEXT]: ../../lab2

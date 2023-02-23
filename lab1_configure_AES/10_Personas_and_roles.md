@@ -1,11 +1,20 @@
 ---
 layout: default
-title: AES Personas & Roles
-parent: Lab 1 | App Engine Studio
-nav_order: 20
+title: Personas & Roles
+parent: Lab 1 | Configure AES
+nav_order: 10
 ---
+
 # Personas and Roles
+{: .no_toc }
 {: .fs-10 }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
 # System Administrator
 ## Responsibilities
 - Install and configure App Engine Studio and dependencies
@@ -17,7 +26,8 @@ nav_order: 20
 definitions for the platform
 - Collaborate with App Engine Studio Administrator(s) to resolve application conflicts that arise on the platform
 
-## Role required: admin
+## Role required: 
+- admin
 
 # App Engine Studio Administrator
 ## Responsibilities
@@ -54,3 +64,22 @@ platform
 - atf_test_admin
 - scan_admin
 
+
+# Low-Code / Citizen Developer
+## Responsibilities
+- Submit requests for new custom applications to build in App Engine Studio
+- Understand ServiceNow and application development best practices
+- Build and test applications in App Engine Studio
+- Submit developed App Engine Studio applications for IT review
+- Maintain and modify the application during its lifecycle if determined during the intake process
+
+## Role required:
+- sn_app_eng_studio.user
+
+
+[Previous][PREVIOUS]{: .btn .mr-4 }
+[Next][NEXT]{: .btn .btn-purple }
+
+
+[PREVIOUS]: ../0_Overview
+[NEXT]: ../50_App_Engine_Studio_Setup

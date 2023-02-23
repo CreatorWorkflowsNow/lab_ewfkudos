@@ -1,11 +1,12 @@
 ---
 layout: default
-title: 11) Create application templates
-parent: Lab 3
-nav_order: 110
+title: Manage collaboration
+parent: Lab 2 | Manage AES Access
+nav_order: 40
 ---
 
-# Create application templates
+
+# Collaboration and Delegated Development
 {: .no_toc }
 
 **Duration: TBD minutes**

@@ -1,11 +1,11 @@
 ---
 layout: default
-title: 12) Manage App Engine Studio properties and processes
-parent: Lab 3
-nav_order: 120
+title: Promote an app in a pipeline
+parent: Lab 4 | App Deployment
+nav_order: 20
 ---
 
-# Manage App Engine Studio properties and processes
+# Promote an app in a pipeline
 {: .no_toc }
 
 **Duration: TBD minutes**

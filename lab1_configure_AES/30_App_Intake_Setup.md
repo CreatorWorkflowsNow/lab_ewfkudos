@@ -1,14 +1,14 @@
 ---
 layout: default
-title: 6) App Deployment Requests
-parent: Lab 2
-nav_order: 60
+title: App Intake Setup
+parent: Lab 1 | Configure AES
+nav_order: 30
 ---
 
-# App Deployment Requests
+# App Intake Setup
 {: .no_toc }
 
-**Duration: TBD minutes**
+**Duration: 30 minutes**
 {: .no_toc }
 
 ## Table of contents

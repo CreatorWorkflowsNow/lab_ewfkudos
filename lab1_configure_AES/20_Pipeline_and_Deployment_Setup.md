@@ -1,7 +1,7 @@
 ---
 layout: default
-title: 2) Pipeline and Deployment Setup
-parent: Lab 2
+title: Pipeline and Deployment Setup
+parent: Lab 1 | Configure AES
 nav_order: 20
 ---
 
@@ -10,6 +10,10 @@ nav_order: 20
 
 **Duration: 30 minutes**
 {: .no_toc }
+
+Once App Engine Studio Setup has been completed, administrators must complete the Pipeline and Deployment Guided Setup activities. 
+
+Pipelines enable you to automate the propagation and installation of your applications from one instance to another. Pipelines are powered by the ServiceNow CI / CD spoke, which enables you to automate processes such as publishing applications to the application repository, installing them on target instances, and running ATF tests and/or instance scans. 
 
 ## Table of contents
 {: .no_toc .text-delta }

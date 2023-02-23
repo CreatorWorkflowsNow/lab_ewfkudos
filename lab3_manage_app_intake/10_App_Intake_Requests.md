@@ -1,11 +1,11 @@
 ---
 layout: default
-title: 10) Deploy applications to production in App Engine Studio
-parent: Lab 3
-nav_order: 100
+title: App Intake Requests
+parent: Lab 3 | App Intake
+nav_order: 10
 ---
 
-# Deploy applications to production in App Engine Studio
+# App Intake Requests
 {: .no_toc }
 
 **Duration: TBD minutes**

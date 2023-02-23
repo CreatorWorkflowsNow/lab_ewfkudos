@@ -1,11 +1,11 @@
 ---
 layout: default
-title: 9) Reject an application
-parent: Lab 2
-nav_order: 90
+title: Manage App Engine Studio properties and processes
+parent: Lab 5 | Bonus
+nav_order: 30
 ---
 
-# Reject an application
+# Manage App Engine Studio properties and processes
 {: .no_toc }
 
 **Duration: TBD minutes**

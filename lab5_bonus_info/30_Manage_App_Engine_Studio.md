@@ -1,11 +1,11 @@
 ---
 layout: default
-title: 11) Create application templates
-parent: Lab 3
-nav_order: 110
+title: Manage App Engine Studio properties and processes
+parent: Lab 5 | Bonus
+nav_order: 30
 ---
 
-# Create application templates
+# Manage App Engine Studio properties and processes
 {: .no_toc }
 
 **Duration: TBD minutes**

@@ -1,11 +1,11 @@
 ---
 layout: default
-title: 7) Promote an app in a pipeline
-parent: Lab 2 | AEMC Setup
-nav_order: 70
+title: App Deployment Requests
+parent: Lab 4 | App Deployment
+nav_order: 10
 ---
 
-# Promote an app in a pipeline
+# App Deployment Requests
 {: .no_toc }
 
 **Duration: TBD minutes**

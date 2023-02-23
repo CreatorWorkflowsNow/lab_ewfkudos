@@ -1,11 +1,11 @@
 ---
 layout: default
-title: 6) App Deployment Requests
-parent: Lab 2 | AEMC Setup
-nav_order: 60
+title: Reject an application
+parent: Lab 4 | App Deployment
+nav_order: 40
 ---
 
-# App Deployment Requests
+# Reject an application
 {: .no_toc }
 
 **Duration: TBD minutes**

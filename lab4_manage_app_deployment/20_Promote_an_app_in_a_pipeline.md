@@ -1,14 +1,14 @@
 ---
 layout: default
-title: 3) App Intake Setup
-parent: Lab 2 | AEMC Setup
-nav_order: 30
+title: Promote an app in a pipeline
+parent: Lab 4 | App Deployment
+nav_order: 20
 ---
 
-# App Intake Setup
+# Promote an app in a pipeline
 {: .no_toc }
 
-**Duration: 30 minutes**
+**Duration: TBD minutes**
 {: .no_toc }
 
 ## Table of contents

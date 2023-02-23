@@ -1,7 +1,7 @@
 ---
 layout: default
-title: AES Overview
-parent: Lab 1 | App Engine Studio
+title: Overview
+parent: Lab 1 | Configure AES
 nav_order: 5
 ---
 

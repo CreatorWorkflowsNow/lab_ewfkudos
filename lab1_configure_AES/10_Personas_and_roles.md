@@ -1,8 +1,8 @@
 ---
 layout: default
-title: AES Personas & Roles
-parent: Lab 1 | App Engine Studio
-nav_order: 20
+title: Personas & Roles
+parent: Lab 1 | Configure AES
+nav_order: 10
 ---
 
 # Personas and Roles
@@ -63,6 +63,18 @@ platform
 - sn_app_eng_studio.user
 - atf_test_admin
 - scan_admin
+
+
+# Low-Code / Citizen Developer
+## Responsibilities
+- Submit requests for new custom applications to build in App Engine Studio
+- Understand ServiceNow and application development best practices
+- Build and test applications in App Engine Studio
+- Submit developed App Engine Studio applications for IT review
+- Maintain and modify the application during its lifecycle if determined during the intake process
+
+## Role required:
+- sn_app_eng_studio.user
 
 
 [Previous][PREVIOUS]{: .btn .mr-4 }

@@ -1,11 +1,11 @@
 ---
 layout: default
-title: 12) Manage App Engine Studio properties and processes
-parent: Lab 3
-nav_order: 120
+title: Review and test an application
+parent: Lab 4 | App Deployment
+nav_order: 30
 ---
 
-# Manage App Engine Studio properties and processes
+# Review and test an application
 {: .no_toc }
 
 **Duration: TBD minutes**

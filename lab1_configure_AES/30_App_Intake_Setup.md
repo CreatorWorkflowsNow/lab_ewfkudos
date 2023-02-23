@@ -1,14 +1,14 @@
 ---
 layout: default
-title: 8) Review and test an application
-parent: Lab 2 | AEMC Setup
-nav_order: 80
+title: App Intake Setup
+parent: Lab 1 | Configure AES
+nav_order: 30
 ---
 
-# Review and test an application
+# App Intake Setup
 {: .no_toc }
 
-**Duration: TBD minutes**
+**Duration: 30 minutes**
 {: .no_toc }
 
 ## Table of contents

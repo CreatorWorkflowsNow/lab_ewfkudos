@@ -1,11 +1,11 @@
 ---
 layout: default
-title: 9) Reject an application
-parent: Lab 2 | AEMC Setup
-nav_order: 90
+title: Deploy applications to production in App Engine Studio
+parent: Lab 4 | App Deployment
+nav_order: 10
 ---
 
-# Reject an application
+# Deploy applications to production in App Engine Studio
 {: .no_toc }
 
 **Duration: TBD minutes**

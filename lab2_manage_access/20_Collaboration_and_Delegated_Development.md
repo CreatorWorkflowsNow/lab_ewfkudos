@@ -1,11 +1,12 @@
 ---
 layout: default
-title: 10) Deploy applications to production in App Engine Studio
-parent: Lab 3
-nav_order: 100
+title: Manage collaboration
+parent: Lab 2 | Manage AES Access
+nav_order: 40
 ---
 
-# Deploy applications to production in App Engine Studio
+
+# Collaboration and Delegated Development
 {: .no_toc }
 
 **Duration: TBD minutes**

@@ -1,11 +1,11 @@
 ---
 layout: default
-title: 4) Collaboration and Delegated Development
-parent: Lab 2 | AEMC Setup
-nav_order: 40
+title: App Intake Requests
+parent: Lab 3 | App Intake
+nav_order: 10
 ---
 
-# Collaboration and Delegated Development
+# App Intake Requests
 {: .no_toc }
 
 **Duration: TBD minutes**

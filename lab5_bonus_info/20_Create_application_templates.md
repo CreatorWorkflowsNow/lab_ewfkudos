@@ -1,11 +1,11 @@
 ---
 layout: default
-title: 5) App Intake Requests
-parent: Lab 2 | AEMC Setup
-nav_order: 50
+title: Create application templates
+parent: Lab 5 | Bonus
+nav_order: 20
 ---
 
-# App Intake Requests
+# Create application templates
 {: .no_toc }
 
 **Duration: TBD minutes**

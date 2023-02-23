@@ -1,11 +1,11 @@
 ---
 layout: default
-title: AEMC Overview
-parent: Lab 2 | AEMC Setup | AEMC Setup
+title: Overview
+parent: Lab 4 | App Deployment
 nav_order: 5
 ---
 
-# AEMC Overview
+# Lab 4 Overview
 {: .no_toc }
 
 **Duration: TBD minutes**

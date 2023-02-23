@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 12) Manage App Engine Studio properties and processes
-parent: App Engine Management Center
+parent: Overview
 nav_order: 120
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 7) Promote an app in a pipeline
-parent: App Engine Management Center
+parent: Overview
 nav_order: 70
 ---
 

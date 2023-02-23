@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 5) App Intake Requests
-parent: App Engine Management Center
+parent: Overview
 nav_order: 50
 ---
 

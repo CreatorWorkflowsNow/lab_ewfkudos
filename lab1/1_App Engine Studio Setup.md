@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 1) App Engine Studio Setup
-parent: App Engine Management Center
+parent: Lab 1
 nav_order: 10
 ---
 

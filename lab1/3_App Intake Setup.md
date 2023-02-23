@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 3) App Intake Setup
-parent: App Engine Management Center
+parent: Lab 1
 nav_order: 30
 ---
 

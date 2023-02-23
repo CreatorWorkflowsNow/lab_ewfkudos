@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 10) Deploy applications to production in App Engine Studio
-parent: App Engine Management Center
+parent: Overview
 nav_order: 100
 ---
 

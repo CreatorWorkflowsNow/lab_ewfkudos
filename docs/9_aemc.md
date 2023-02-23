@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 9) Reject an application
-parent: App Engine Management Center
+parent: Overview
 nav_order: 90
 ---
 

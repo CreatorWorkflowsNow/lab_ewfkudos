@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 6) App Deployment Requests
-parent: App Engine Management Center
+parent: Overview
 nav_order: 60
 ---
 

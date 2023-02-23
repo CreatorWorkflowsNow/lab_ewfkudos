@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 8) Review and test an application
-parent: App Engine Management Center
+parent: Overview
 nav_order: 80
 ---
 

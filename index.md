@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Overview
-nav_order: 99
-has_children: true
+nav_order: 0
 ---
 
 # App Engine Management Center

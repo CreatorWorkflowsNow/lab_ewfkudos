@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 4) Collaboration and Delegated Development
-parent: Overview
+parent: Lab 2
 nav_order: 40
 ---
 

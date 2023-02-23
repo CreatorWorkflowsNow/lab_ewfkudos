@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 5) App Intake Requests
-parent: Overview
+parent: Lab 2
 nav_order: 50
 ---
 

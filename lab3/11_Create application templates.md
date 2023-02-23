@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 11) Create application templates
-parent: Overview
+parent: Lab 3
 nav_order: 110
 ---
 

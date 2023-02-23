@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 8) Review and test an application
-parent: Overview
+parent: Lab 2
 nav_order: 80
 ---
 

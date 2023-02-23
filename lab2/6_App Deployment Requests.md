@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 6) App Deployment Requests
-parent: Overview
+parent: Lab 2
 nav_order: 60
 ---
 

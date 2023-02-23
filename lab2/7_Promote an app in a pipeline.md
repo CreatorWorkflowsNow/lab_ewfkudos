@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 7) Promote an app in a pipeline
-parent: Overview
+parent: Lab 2
 nav_order: 70
 ---
 

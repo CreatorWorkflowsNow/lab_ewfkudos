@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 12) Manage App Engine Studio properties and processes
-parent: Overview
+parent: Lab 3
 nav_order: 120
 ---
 

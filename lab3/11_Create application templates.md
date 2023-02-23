@@ -1,11 +1,11 @@
 ---
 layout: default
-title: 9) Reject an application
-parent: App Engine Management Center
-nav_order: 90
+title: 11) Create application templates
+parent: Lab 3
+nav_order: 110
 ---
 
-# Reject an application
+# Create application templates
 {: .no_toc }
 
 **Duration: TBD minutes**

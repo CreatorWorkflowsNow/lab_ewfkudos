@@ -1,11 +1,11 @@
 ---
 layout: default
-title: 5) App Intake Requests
-parent: App Engine Management Center
-nav_order: 50
+title: 4) Collaboration and Delegated Development
+parent: Lab 2
+nav_order: 40
 ---
 
-# App Intake Requests
+# Collaboration and Delegated Development
 {: .no_toc }
 
 **Duration: TBD minutes**

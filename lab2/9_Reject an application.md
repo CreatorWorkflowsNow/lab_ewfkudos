@@ -1,11 +1,11 @@
 ---
 layout: default
-title: 3) App Intake Setup
-parent: App Engine Management Center
-nav_order: 30
+title: 9) Reject an application
+parent: Lab 2
+nav_order: 90
 ---
 
-# App Intake Setup
+# Reject an application
 {: .no_toc }
 
 **Duration: TBD minutes**

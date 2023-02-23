@@ -1,11 +1,11 @@
 ---
 layout: default
-title: 6) App Deployment Requests
-parent: App Engine Management Center
-nav_order: 60
+title: 12) Manage App Engine Studio properties and processes
+parent: Lab 3
+nav_order: 120
 ---
 
-# App Deployment Requests
+# Manage App Engine Studio properties and processes
 {: .no_toc }
 
 **Duration: TBD minutes**

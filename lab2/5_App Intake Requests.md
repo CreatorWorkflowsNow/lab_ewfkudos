@@ -1,11 +1,11 @@
 ---
 layout: default
-title: 8) Review and test an application
-parent: App Engine Management Center
-nav_order: 80
+title: 5) App Intake Requests
+parent: Lab 2
+nav_order: 50
 ---
 
-# Review and test an application
+# App Intake Requests
 {: .no_toc }
 
 **Duration: TBD minutes**

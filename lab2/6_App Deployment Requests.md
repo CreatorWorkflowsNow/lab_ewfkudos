@@ -1,11 +1,11 @@
 ---
 layout: default
-title: 11) Create application templates
-parent: App Engine Management Center
-nav_order: 110
+title: 6) App Deployment Requests
+parent: Lab 2
+nav_order: 60
 ---
 
-# Create application templates
+# App Deployment Requests
 {: .no_toc }
 
 **Duration: TBD minutes**

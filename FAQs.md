@@ -1,7 +1,6 @@
 ---
 layout: default
-title: 13) FAQs
-parent: App Engine Management Center
+title: FAQs
 nav_order: 130
 ---
 

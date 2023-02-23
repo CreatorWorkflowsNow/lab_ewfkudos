@@ -1,11 +1,11 @@
 ---
 layout: default
-title: 4) Collaboration and Delegated Development
-parent: App Engine Management Center
-nav_order: 40
+title: 7) Promote an app in a pipeline
+parent: Lab 2
+nav_order: 70
 ---
 
-# Collaboration and Delegated Development
+# Promote an app in a pipeline
 {: .no_toc }
 
 **Duration: TBD minutes**

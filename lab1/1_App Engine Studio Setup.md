@@ -1,14 +1,14 @@
 ---
 layout: default
 title: 1) App Engine Studio Setup
-parent: App Engine Management Center
+parent: Lab 1
 nav_order: 10
 ---
 
 # App Engine Studio Setup
 {: .no_toc }
 
-**Duration: TBD minutes**
+**Duration: 30 minutes**
 {: .no_toc }
 
 ## Table of contents

@@ -1,14 +1,14 @@
 ---
 layout: default
-title: 7) Promote an app in a pipeline
-parent: App Engine Management Center
-nav_order: 70
+title: 3) App Intake Setup
+parent: Lab 1
+nav_order: 30
 ---
 
-# Promote an app in a pipeline
+# App Intake Setup
 {: .no_toc }
 
-**Duration: TBD minutes**
+**Duration: 30 minutes**
 {: .no_toc }
 
 ## Table of contents

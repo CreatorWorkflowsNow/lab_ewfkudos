@@ -1,14 +1,14 @@
 ---
 layout: default
 title: 2) Pipeline and Deployment Setup
-parent: App Engine Management Center
+parent: Lab 1
 nav_order: 20
 ---
 
 # Pipeline and Deployment Setup
 {: .no_toc }
 
-**Duration: TBD minutes**
+**Duration: 30 minutes**
 {: .no_toc }
 
 ## Table of contents

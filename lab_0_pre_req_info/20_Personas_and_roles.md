@@ -2,7 +2,7 @@
 layout: default
 title: Personas & Roles
 parent: Pre-Req Info
-nav_order: 10
+nav_order: 20
 ---
 
 # Personas and Roles
@@ -85,7 +85,7 @@ platform
 - sn_app_eng_studio.user
 
 [Previous][PREVIOUS]{: .btn .mr-4 }
-[Next][NEXT]{: .btn .btn-purple }
+[Lab 1][NEXT]{: .btn .btn-purple }
 
 [PREVIOUS]: ../10_AES_Overview
-[NEXT]: ../../lab_1_Configure_AES
+[NEXT]: ../30_Install_Requirements

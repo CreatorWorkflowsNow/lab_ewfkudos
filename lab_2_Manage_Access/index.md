@@ -5,5 +5,7 @@ nav_order: 20
 has_children: true
 ---
 
-# AEMC Setup
-{: .fs-10 }
+# Lab 2 \| Manage AES Access
+[Next][NEXT]{: .btn .btn-purple }
+
+[NEXT]: ./0_Overview/

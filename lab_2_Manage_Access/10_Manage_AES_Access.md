@@ -2,7 +2,7 @@
 layout: default
 title: Manage AES Access
 parent: Lab 2 | Manage AES Access
-nav_order: 5
+nav_order: 10
 ---
 
 # AEMC Overview

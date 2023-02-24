@@ -8,6 +8,9 @@ nav_order: 20
 # Pipeline and Deployment Setup
 {: .no_toc }
 
+[Previous][PREVIOUS]{: .btn .mr-4 }
+[Next][NEXT]{: .btn .btn-purple }
+
 **Duration: 30 minutes**
 {: .no_toc }
 
@@ -42,3 +45,9 @@ Pipelines enable you to automate the propagation and installation of your applic
 ### Configure credentials
 ### Configure controller instance
 ### Enable ATF if on Test instance
+
+[Previous][PREVIOUS]{: .btn .mr-4 }
+[Next][NEXT]{: .btn .btn-purple }
+
+[PREVIOUS]: ../15_App_Engine_Studio_Setup
+[NEXT]: ../30_App_Intake_Setup

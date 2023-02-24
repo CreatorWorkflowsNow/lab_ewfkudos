@@ -8,6 +8,9 @@ nav_order: 15
 # App Engine Studio Setup
 {: .no_toc }
 
+[Previous][PREVIOUS]{: .btn .mr-4 }
+[Next][NEXT]{: .btn .btn-purple }
+
 **Duration: 30 minutes**
 {: .no_toc }
 
@@ -17,6 +20,7 @@ nav_order: 15
 1. TOC
 {:toc}
 
+
 ---
 # Review and set up tooling in the development instance
 
@@ -24,7 +28,7 @@ nav_order: 15
 ## Review Flow Designer access
 ## Review Service Catalog access settings in dev
 ## Configure Instance Scan definitions
-
+G
 # Set up user access
 
 ## Set up admin group "App Engine  Admins"
@@ -41,8 +45,8 @@ nav_order: 15
 - Add them to "App Engine Users" in dev
 
 [Previous][PREVIOUS]{: .btn .mr-4 }
-[Lab 2][NEXT]{: .btn .btn-purple }
+[Next][NEXT]{: .btn .btn-purple }
 
 
 [PREVIOUS]: ../10_Personas_and_roles
-[NEXT]: ../../lab2
+[NEXT]: ../20_Pipeline_and_Deployment_Setup

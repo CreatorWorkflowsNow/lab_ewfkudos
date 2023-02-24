@@ -2,7 +2,7 @@
 layout: default
 title: Manage collaboration
 parent: Lab 2 | Manage AES Access
-nav_order: 40
+nav_order: 20
 ---
 
 

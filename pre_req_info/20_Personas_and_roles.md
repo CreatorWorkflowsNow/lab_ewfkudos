@@ -1,13 +1,20 @@
 ---
 layout: default
 title: Personas & Roles
-parent: Lab 1 | Configure AES
+parent: Pre-Req Info
 nav_order: 10
 ---
 
 # Personas and Roles
 {: .no_toc }
-{: .fs-10 }
+
+[Previous][PREVIOUS]{: .btn .mr-4 }
+[Next][NEXT]{: .btn .btn-purple }
+
+{: .highlight}
+> This overview is for information purposes only. 
+>
+> No activity required.
 
 ## Table of contents
 {: .no_toc .text-delta }
@@ -15,6 +22,7 @@ nav_order: 10
 1. TOC
 {:toc}
 
+---
 # System Administrator
 ## Responsibilities
 - Install and configure App Engine Studio and dependencies
@@ -76,10 +84,8 @@ platform
 ## Role required:
 - sn_app_eng_studio.user
 
-
 [Previous][PREVIOUS]{: .btn .mr-4 }
 [Next][NEXT]{: .btn .btn-purple }
 
-
-[PREVIOUS]: ../0_Overview
-[NEXT]: ../50_App_Engine_Studio_Setup
+[PREVIOUS]: ../10_AES_Overview
+[NEXT]: ../../lab_1_Configure_AES

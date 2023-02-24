@@ -13,7 +13,7 @@ In this lab, you will get hands-on experience setting up and managing AEMC.
 We will cover concepts such as Pipelines and Deployments, Onboarding Developers, and Collaborations.
 {: .fs-6 .fw-300 }
 
-[Get Started Now][getStarted]{: .btn .btn-green }
+[Get started Now][getStarted]{: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 {: .highlight }
 > The content in this guide applies to App Engine Studio Version 22.0.3
@@ -34,4 +34,4 @@ We will cover concepts such as Pipelines and Deployments, Onboarding Developers,
 [Lab5]: /lab_5_Bonus_Info/
 
 
-[getStarted]: /pre_req_info/
+[getStarted]: /lab_0_pre_req_info/

@@ -87,5 +87,5 @@ platform
 [Previous][PREVIOUS]{: .btn .mr-4 }
 [Lab 1][NEXT]{: .btn .btn-purple }
 
-[PREVIOUS]: ../15_Install_Requirements
-[NEXT]: ../../lab_1_Configure_AES
+[PREVIOUS]: ../10_AES_Overview
+[NEXT]: ../30_Install_Requirements

@@ -1,19 +1,27 @@
-![](RackMultipart20230224-1-8f1srq_html_a850bf160c903d38.png)
+---
+layout: default
+title: Overview
+nav_order: 0
+---
 
-# AppEngineStudio – System AdministratorGuide
+# App Engine
 {: .fs-10 }
 
-## Tokyo
+# System Administrator Guide
 {: .fs-10 }
 
-##
-
-## Release
+# Tokyo Release
 {: .fs-10 }
+
+{: .highlight }
+> NOTE
+>
+> The following content is still in development.
+
 
 **Table Contents**
 
-[AppEngineStudioOverview3](#_bookmark0)
+[AppEngineStudioOverview](#_bookmark0)
 
 [PersonasandRoles4](#_bookmark1)
 
@@ -79,10 +87,10 @@ With guidance-driven development flows and pre-configured application templates,
 
 Administratorscontrolwhichapplicationstodeploybyreviewingandtestingapplications createdbyAppEngineStudiodevelopers–andbydelegatingdevelopmenttobusinessunitsin yourorganization,administratorsarefreeduptoaddressmorestrategic,system-wideissues.
 
-![](RackMultipart20230224-1-8f1srq_html_c01da20658fb5bfd.jpg)
+
 
 _\* App Engine Studio_ _a __p__ p __l__ i __c__ a __t__ i __o__ n __t__ e __m__ p __l__ a __t__ e __s__ are not captured in update sets, however_ _m __o__ d __i__ f __i__ c __a__ t __i__ o __ns__ to_ _t __e__ m __p__ l __a__ t __e__ s__will be captured_
-
+≈≈≈≈√       √√√ƒ√B G≈Ï©ÏB GBFCZC  A
 AppEngine Studio isthe ideal ServiceNow developmentenvironmentfor no-codeand low- code application development for developers of all skill levels. Pro-code developers can useApp Engine Studio as a starting point for application development and easily transfer their applicationstoServiceNowStudiowhenadvancedconfigurationsarenecessary.
 
 Sincedevelopmentissupportedbetweenthetwoenvironments,low-codeandpro-code developerscan easily collaborate to deliver custom applications.
@@ -179,7 +187,7 @@ Applicationsaredeployedtotheproductioninstanceoncedevelopedandsuccessfullytested
 
 If your organization uses sandbox or staging environments in addition to test and development, theycanbeincorporatedtotheinstancestrategyaccordinglybasedonorganizationalneeds.
 
-![](RackMultipart20230224-1-8f1srq_html_9df5e1fc96e64b47.png)
+
 
 _E __x__ a __m__ p __l__ e __instance__ strategy __with__ one __p__ r __o__ d __u__ c __t__ i __o__ n __instance__ and __three__ sub- __p__ r __o__ d __u__ c __t__ i __o__ n__instances_
 
@@ -195,7 +203,7 @@ BeforeinstallingtheapplicationfromtheServiceNowStore,verifytheinstancehasvalid S
 
 IntheServiceNowStore,usethesearchcriteriatofindAppEngineStudio.
 
-![](RackMultipart20230224-1-8f1srq_html_7f48982365c8283e.png)
+
 
 Click **Opt-in** andagreetotheServiceNowtermsandconditionstoverifyentitlements.
 
@@ -207,7 +215,7 @@ ToinstalltheAppEngineStudioapplication(_ **com.snc.app-engine-studio** _),logint
 
 UsethesearchcriteriatofindtheAppEngineStudioapplication.Click **Install**** / ****Update**** All**.
 
-![](RackMultipart20230224-1-8f1srq_html_427cf7485e3d8a66.jpg)
+
 
 The App Engine Studio bundle will be installed in the development instance– including the App EngineStudioapplication andalldependentapplications.
 
@@ -220,7 +228,7 @@ _For __more__ information,__see:_
 
 # HowdoIconfigureAppEngineStudio?
 
-![](RackMultipart20230224-1-8f1srq_html_7fdebf8d2db10f64.jpg)
+
 
 _ **\*\*** __Repeat__ steps __across__ a __ll__ sub- __p__ r __o__ d __u__ c __t__ i __o__ n __instances,__ as__necessary_
 
@@ -249,13 +257,13 @@ _For __more__ information,__see_[_Product__Documentation: __Using__ guided__setu
 
 Navigate to **App Engine Studio \> Configuration \> Guided Setup** in your development instance to accesstheAppEngineStudioGuidedSetup.
 
-![](RackMultipart20230224-1-8f1srq_html_dbb984441261522f.png)
+
 
 _ **Note** __: Before__ beginning __App__ Engine __Studio__ Guided __Setup,__ ensure __your__ application __scope__ is __set__ to_
 
 '_App __Engine__ Studio'. __If__ not, __use__ the application __picker__ to __change__ the current __session's__ scope_
 
-![](RackMultipart20230224-1-8f1srq_html_43882ff7b99a542e.jpg)
+
 
 1. **Review**** and ****set**** up ****tooling**** in ****the**** development ****instance**
 
@@ -308,7 +316,7 @@ DeveloperscanleverageFlowDesignercapabilitieswhilecreatinglogicand automation fo
 
 Consider restricting developer access to Flow Designer Resources using content filtering for Flow Designer. This allows administrators to manage access to Flow Designer resources and specify which features App Engine Studio users can leverage while building applications.
 
-![](RackMultipart20230224-1-8f1srq_html_21b6a3a9ae1ecba3.jpg)
+
 
 Thisstepisnotrequiredaspartoftheinitialapplicationsetup.
 
@@ -322,7 +330,7 @@ ReviewAppEngineStudiodeveloperaccess totheCatalogBuildertool's catalog item temp
 
 By default,App EngineStudiodeveloperscan leveragecatalogtemplatesto quickly create record producers or catalog items. Developers can also publishcatalog items to anycatalog. If youwishto limit access to templates or restrict publishingaccesstocatalogsorcategories,updatetheaccessaccordinglyin Catalog Builder.
 
-![](RackMultipart20230224-1-8f1srq_html_f6f632ff36ef394d.png)
+
 
 Thisstepisnotrequiredaspartoftheinitialapplicationsetup.
 
@@ -340,7 +348,7 @@ TheAppEngineStudioapplicationdoesnotshipwithanyout-of-boxInstance Scandefinition
 
 Work with professional ServiceNow developers to configure Instance Scan definitions and enforce best practices in your environments.
 
-![](RackMultipart20230224-1-8f1srq_html_fedff5b2e274543c.jpg)
+
 
 #### _Enable and configure Instance Scan properties in your production instance if you_ plan to clone!
 
@@ -354,7 +362,7 @@ ConfiguretheadmingroupandothergeneralsettingsforAppEngineStudiousers.
 
 Configure App Engine Studio administrator group membership in the developmentinstancetomanagedevelopmentactivitiesthatoccurinthe development environment.
 
-![](RackMultipart20230224-1-8f1srq_html_2f90ed05737ac883.jpg)
+
 
 While development activities will be managed in the development instance, administrators manage application intake, collaboration, and deploymentrequests in production.
 
@@ -372,7 +380,7 @@ _ **Note:** __If__ you __wish__ to __grant multiple__ developers access at one _
 
 After provisioning access for existing developers, grant App Engine Studio access to other users within the organization by adding them to the 'App Engine Studio Users' group.
 
-![](RackMultipart20230224-1-8f1srq_html_69e7adfdf425b772.png)
+
 
 **Pipeline**** and ****Deployment**** Guided ****Setup**
 
@@ -386,13 +394,13 @@ PipelineandDeploymentGuidedSetupactivitiesdonotsyncacrossinstancesandPipeline co
 
 Refer to the process flow on page **9** for an overview of the Pipeline and Deployment GuidedSetup.
 
-![](RackMultipart20230224-1-8f1srq_html_c89fcf3874e23c1b.jpg)
+
 
 _ **Note** __:__ Before __beginning__ Pipelines and __Deployment Studio__ Guided __Setup,__ ensure__your_ _application_
 
 _scope is set __to '__ **Deployment** __**Pipeline**__'. If not, use the__application picker to change the current session's scope_
 
-![](RackMultipart20230224-1-8f1srq_html_ea716e3330d82282.png)
+
 
 1. **Configure**** your ****production**** instance**
 
@@ -406,7 +414,7 @@ ToinstalltheDeploymentPipelineplugin,(_ **com.snc.deployment-pipeline** __)_, lo
 
 Usethesearchcriteriatofindtheapplication.Click **Install**.
 
-![](RackMultipart20230224-1-8f1srq_html_f385314bae755024.png)
+
 
 _ **Note:** __If__ you __have__ already __installed__ the __App__ Engine __Studio__ bundle __in__ the development instance and promoted up to production, skip this step_
 
@@ -418,7 +426,7 @@ In production, navigate to Connections & Credentials \> Connection &CredentialAl
 
 OnlyusersassignedtheadminrolecancreateandupdateCredential Alias records.
 
-![](RackMultipart20230224-1-8f1srq_html_a7beafa98433e87.png)
+
 
 CredentialAlias
 
@@ -448,11 +456,11 @@ tothe'Credentials'RelatedListandclickNewtoaddcredentialdetails.
 
 Select Basic Auth Credentials to populate the Basic Auth Credentialform (currently,this is theonlyCredentialtypesupportedbyAppEngine Studio).
 
-![](RackMultipart20230224-1-8f1srq_html_1a2d2f11c19c8bca.jpg)
+
 
 It is recommended to use a username / password for a service account sothat the password does not expire or change. The account must exist in thetarget instance(s) and have admin permissions.
 
-![Shape3](RackMultipart20230224-1-8f1srq_html_18bf0cd24437eb87.gif)
+
 
 _For __more__ information,__see_[_Product__Documentation: __Create__ a __Connection__ &_](https://docs.servicenow.com/csh?topicname=connection-alias.html)[_C __re__ d __e__ n __t__ i __a__ l__Alias_](https://docs.servicenow.com/csh?topicname=connection-alias.html)
 
@@ -464,7 +472,7 @@ Your production instance is where your pipeline configurations reside and will b
 
 **The****'Is ****Controller?'**** box ****will**** be ****checked**** on ****your**** production ****instance**** only. ****This**  **box**** will ****be**** unchecked ****for**** all ****sub-production**** Environment ****records.**
 
-![](RackMultipart20230224-1-8f1srq_html_1287913cf74d1d42.jpg)
+
 
 **Environments**
 
@@ -504,7 +512,7 @@ Apipelinedefinesthepathanapplicationtakesfromthedevelopmentto productionenvironm
 
 Set up and configure your pipelines by specifying the environments to include along with their position in the pipeline.
 
-![](RackMultipart20230224-1-8f1srq_html_3d4aec2ef344b74b.png)
+
 
 **Pipelines**
 
@@ -531,7 +539,7 @@ Application movement across pipelines is dictated by the order of the environmen
 
 Besuretheenvironment orderisconsistent withthedefinedinstancestrategy. The production instance should have the highest 'Order' value _(i.e., Testing: 100, Staging: 200, Production: 300)._
 
-![](RackMultipart20230224-1-8f1srq_html_d1e5f33a2607b146.jpg)
+
 
 _ **Note:** __Since__ the __development__ environment __is__ already __identified__ as __the__'Source Environment' on the Pipeline record, a Pipeline Environment Order related record is not required_
 
@@ -579,7 +587,7 @@ Usethesearchcriteriatofindtheapplication.Click **Install**.
 
 Repeat and install the Deployment Pipeline plugin in each sub-production instance.
 
-![](RackMultipart20230224-1-8f1srq_html_3994d8cd8c3cfc44.png)
+
 
 _ **Note:** __If__ you __have__ already __installed__ the __App__ Engine __Studio__ bundle __in__ the development instance and promoted up to production, skip this step_
 
@@ -593,7 +601,7 @@ NavigatetoConnections&Credentials\>Connection&CredentialAliases.
 
 Basedonthecredentialinformation,taketheappropriateapproachin configuring Credential Alias records:
 
-![](RackMultipart20230224-1-8f1srq_html_a7beafa98433e87.png)
+
 
 - If all environments in the Deployment Pipeline will use the samecredentialinformation(sameusername/password),thencreatea
 
@@ -658,7 +666,7 @@ EnablethesystempropertiesthatwillallowtheATFsuitetoruninthetesting instance as p
 
 App Engine Studio ships with an out-of-box test suite as a placeholder, howeveryouareresponsibleforconfigurationoftheATFtests.Iftheout-of- boxsuiteisnotmodified,theywillstillrunbutwillnotimpacttheflow.
 
-![](RackMultipart20230224-1-8f1srq_html_ea12307de0d79639.jpg)
+
 
 - **Enable**** test ****/**** test ****suite**** execution **_** (sn\_atf.runner.enabled)**_
   - Check this box on the _ **testing** _instance to enable automated tests to run as part of the application deployment process
@@ -683,13 +691,13 @@ _ **Note** __:__ Ensure __that__ the __controller__ instance __was__ configured 
 
 Navigate to **App**** Engine Studio \> Application Intake \> Guided ****Setup** inyour productioninstance toaccesstheApplicationIntakeGuidedSetup.
 
-![](RackMultipart20230224-1-8f1srq_html_941a6da8b579d52b.jpg)
+
 
 _ **Note** __:__ Before __beginning Application__ Intake __Guided__ Setup, __ensure__ your application __scope is__ set__to_
 
 '_Application __Intake'.__ If __not,__ use __the__ application __picker__ to __change__ the__current session's_ _scope_
 
-![](RackMultipart20230224-1-8f1srq_html_be5525438f918e78.png)
+
 
 1. **Turn on and**** configure ****the**** intake ****request process**** in ****production**
 
@@ -697,7 +705,7 @@ You'll need to activate the catalog item on your **production instance** and con
 
   1. **Activate**** the ****catalog**** item ****where**** developers ****will**** submit ****their**** application ****ideas**
 
-![](RackMultipart20230224-1-8f1srq_html_a90877efe8cbe5eb.jpg)
+
 
 Activatethe'ApplyforCitizenDevelopment'catalogitemandallowdevelopers to submit applicationideas for screening bythe App Engine Studio Administrators.
 
@@ -707,7 +715,7 @@ Administrators can modify the out-of-box catalog item in Catalog Builder accordi
 
   1. **Activate**** user provisioning**
 
-![](RackMultipart20230224-1-8f1srq_html_21c384ae8a15d4bd.jpg)
+
 
 Activatethepropertyonyourproductioninstancetoallowthesystemto provisionuserstotheAppEngineStudioUsersgroupinatargetdevelopment instance upon the approval of an application intake request.
 
@@ -737,7 +745,7 @@ Onceaddedtothegroup,membersareassignedthe **sn\_app\_eng\_studio.user** role,all
 
 Beforegrantingaccessto theApp EngineStudioapplication, ensureusershavecompleted theappropriatecitizen developmentlearningpathsandtrainingsavailablein Now Learning!
 
-![](RackMultipart20230224-1-8f1srq_html_8091b17f4d335f1b.png)
+
 
 **Considerations**** for ****development**** security:**
 
@@ -761,7 +769,7 @@ ownerstopickthelevelofaccesscollaboratorshavetoanapplication.
 
 The **admin** role is required to create custom App Engine Studio roles available to developers when adding collaborators.
 
-![](RackMultipart20230224-1-8f1srq_html_6da759c8c9363f87.jpg)
+
 
 Whena collaboration requestissubmitted and thecollaboratoralready hasaccesstoApp Engine Studio (belongs to the 'App Engine Studio Users' group), then the request will be approved automatically.
 
@@ -777,7 +785,7 @@ _ **Note** __:__ Before __editing__ the __Application__ Intake __process,__ ensu
 
 '_ **Application** __**Intake'**__. __If__ not, __use__ the __application__ picker __to__ change __the__ current __session's__ scope_
 
-![](RackMultipart20230224-1-8f1srq_html_1753a79e93acd0dd.png)
+
 
 ## Configuretheapplicationintakerequestform
 
@@ -831,7 +839,7 @@ When an application is submitted for IT review, the system generates and assigns
 
 Administrators can review application, requestor, and deployment details from the Deployment Request.Pipelineandenvironmentinformationforapplicationsareavailableinthe 'Deployment Details' section of the request form.
 
-![](RackMultipart20230224-1-8f1srq_html_706337e4115974f6.png)
+
 
 **Deployment**** Request ****States**
 
@@ -889,7 +897,7 @@ Once an application has successfullycompleted all testing activities fromrequire
 
 Whenadministratorsapproveanapplicationtopromoteanapplicationtoproduction,the DeploymentRequest'State'willchangeto **Closed**** – ****Published**.Theapplicationwillbepublished totheapplicationrepositoryandinstalledontheproductioninstance.Assignrolesappropriately sothatuserscanaccesstheapplicationacrossinstances,asnecessary.
 
-![](RackMultipart20230224-1-8f1srq_html_bc8c67e4adfef4af.png)
+
 
 Formoreinformation,see:
 
@@ -901,11 +909,11 @@ Formoreinformation,see:
 
 AppEngineStudiooffersdeveloperspre-configuredapplicationtemplatesthatcanbeusedto jumpstartdevelopmentandacceleratetimetovalue.Inadditiontotheout-of-boxtemplates, AppEngineStudioAdministratorscanconfigurecustomtemplatesfortheirdevelopers.
 
-![](RackMultipart20230224-1-8f1srq_html_e319c3307b993233.png)
+
 
 Thesetemplatescanbeconfiguredwithpre-definedData,Experiences,LogicandAutomation, and Security features, based on common use cases across the organization.
 
-![](RackMultipart20230224-1-8f1srq_html_5a034cc8a475c277.jpg)
+
 
 Customapplicationtemplatescanbecreatedfromexistingapplications,orfromscratch.Once atemplatehasbeenconfigured,makeitavailabletodevelopersbypublishingitinAppEngine Studio.
 

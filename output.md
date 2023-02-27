@@ -75,12 +75,13 @@ application artifacts can only be accessed and configured in
 ServiceNow Studio. These include business rules, notifications, and
 service portal pages.
 
-[Back to top](#top)
+[Back to top](#top){: .btn .btn-purple }
 
 ---
 # Personas and Roles {#personas-and-roles}
 
-## System Administrator
+System Administrator
+{: .fs-6 }
 
 **Responsibilities**
 -   Install and configure App Engine Studio and dependencies
@@ -97,7 +98,8 @@ service portal pages.
 **Role required**
 - admin
 
-## App Engine Studio Administrator
+App Engine Studio Administrator
+{: .fs-6 }
 
 **Responsibilities**
 
@@ -119,7 +121,8 @@ service portal pages.
 -   atf_test_designer
 -   scan_admin
 
-## Professional ServiceNow Developer
+Professional ServiceNow Developer
+{: .fs-6 }
 
 **Responsibilities**
 
@@ -143,7 +146,8 @@ service portal pages.
 -   atf_test_admin
 -   scan_admin
 
-## Low-Code / Citizen Developer
+Low-Code / Citizen Developer
+{: .fs-6 }
 
 **Responsibilities**
 
@@ -157,7 +161,7 @@ service portal pages.
 **Role required**
 - sn_app_eng_studio.user
 
-[Back to top](#top)
+[Back to top](#top){: .btn .btn-purple }
 
 ---
 
@@ -165,14 +169,14 @@ service portal pages.
 
 Before installing App Engine Studio, review all platform requirements and define an organizational instance strategy to prepare for successful installation and configuration.
 
-# Review platform requirements
+## Review platform requirements
 - App Engine Studio Version 22.0.3
 - App Engine license required
   -	Contact your ServiceNow Account Manager for additional information on App Engine, or see [ServiceNow App Engine](https://www.servicenow.com/products/now-platform-app-engine.html)
 - Instances must be on Tokyo release
 - **admin** role is required in all instances to install App Engine Studio and dependent applications from the ServiceNow Store
 
-# Define instance strategy
+## Define instance strategy
 When defining the instance strategy for App Engine Studio, it is recommended to leverage one production instance and at least two sub-production instances – however App Engine Studio can support any number of sub-production instances as part of an instance strategy.
 
 Applications are deployed to the production instance once developed and successfully tested in sub-production instances. One sub-production instance will serve as the development environment, and the other as the test environment.
@@ -194,7 +198,7 @@ that may arise if the application is deployed to production.
 for App Engine
 Studio]](https://docs.servicenow.com/csh?topicname=aes-instance-strategy.html)*
 
-[Back to top](#top)
+[Back to top](#top){: .btn .btn-purple }
 
 ---
 
@@ -245,7 +249,7 @@ Repeat this process on all instances for cloning purposes.
 -   [*[Product Documentation: Install App Engine
     Studio]*](https://docs.servicenow.com/csh?topicname=install-aes.html)
 
-[Back to top](#top)
+[Back to top](#top){: .btn .btn-purple }
 
 ---
 
@@ -268,54 +272,44 @@ clone]](https://docs.servicenow.com/csh?topicname=c_SystemClone.html)*
 The App Engine Studio bundle has three Guided Setup modules to assist
 in configuration:
 
-### App Engine Studio Guided Setup
+[**App Engine Studio Guided Setup**](#app-engine-studio-guided-setup)
 
--   Configure foundational application components and provision initial
+  -   Configure foundational application components and provision initial
     user access
 
-### Pipeline and Deployment Guided Setup
+[**Pipeline and Deployment Guided Setup**](#pipeline-and-deployment-guided-setup)
 
--   Configure pipelines to deploy applications across instances with
+  -   Configure pipelines to deploy applications across instances with
     confidence
 
-### Application Intake Guided Setup
+[**Application Intake Guided Setup**](#application-intake-guided-setup)
 
--   Configure application intake catalog item and process to enable
+  -   Configure application intake catalog item and process to enable
     business users to submit application requests from an existing
     service portal
 
-***Note:** App Engine Management Center is dependent on the
-configuration of Pipelines and Deployment Guided Setup, and optionally
-Application Intake Guided Setup*
+***Note:** App Engine Management Center is dependent on the configuration of Pipelines and Deployment Guided Setup, and optionally Application Intake Guided Setup*
 
-*For more information, see [Product Documentation: Using guided
-setup](https://docs.servicenow.com/csh?topicname=guided-setup.html)*
+*For more information, see [Product Documentation: Using guided setup](https://docs.servicenow.com/csh?topicname=guided-setup.html)*
 
-[]{#_bookmark9 .anchor}**App Engine Studio Guided Setup**
+## App Engine Studio Guided Setup
+*Part of: How do I configure App Engine Studio?*
 
-Navigate to **App Engine Studio \Configuration \Guided Setup** in
-your development instance to access the App Engine Studio Guided
-Setup.
+Navigate to **App Engine Studio \Configuration \Guided Setup** in your development instance to access the App Engine Studio Guided Setup.
 
 ![](/images/image7.png)
 
-
-***Note**: Before beginning App Engine Studio Guided Setup, ensure
-your application scope is set to*
-
-*'App Engine Studio'. If not, use the application picker to change the
-current session's scope*
+***Note**: Before beginning App Engine Studio Guided Setup, ensure your application scope is set to 'App Engine Studio'. If not, use the application picker to change the current session's scope*
 
 ![](/images/image8.jpeg)
 
 
-1.  **[Review and set up tooling in the development
-    instance]**
+**Review and set up tooling in the development instance**
 
 Review and update App Engine Studio developer access to builder tools
 during development.
 
-a.  **Connect spokes in development**
+**Connect spokes in development**
 
 A spoke is a scoped application that contains Flow Designer or
 Integration Hub actions or sub-flows.
@@ -330,6 +324,7 @@ Many Integration Hub spokes are available, but not all need to be
 connected to App Engine Studio. Review some of the common spokes below
 and install based on organizational needs.
 
+```
 +----------------------+-----------------------------------------------+
 | **Integration Hub    | **Installing this spoke provides              |
 | spoke**              | developers...**                               |
@@ -365,6 +360,8 @@ and install based on organizational needs.
                           management in Microsoft Excel.
   -----------------------------------------------------------------------
 
+```
+
 This step is not required as part of the initial application setup.
 
 As your organization's citizen development program matures and scales,
@@ -376,8 +373,7 @@ demand and use cases.
 [[Documentation: Integration
 Hub]](https://docs.servicenow.com/csh?topicname=integrationhub.html)*
 
-b.  **Review Flow Designer access settings from App Engine Studio in
-    development**
+**Review Flow Designer access settings from App Engine Studio in development**
 
 Review and update App Engine Studio developer access settings to Flow
 Designer Resources and update as necessary.
@@ -399,38 +395,25 @@ Flow Designer access from App Engine Studio can be updated later to
 provide developers the editing capabilities that best suit their
 experience and needs.
 
-*For more information on Flow Designer resources, see [[Product
-Documentation:]](https://docs.servicenow.com/csh?topicname=content-filtering-flow-designer.html)
-[[Content Filtering for Flow
-Designer]](https://docs.servicenow.com/csh?topicname=content-filtering-flow-designer.html)*
+*For more information on Flow Designer resources, see [[Product Documentation: Content Filtering for Flow Designer]](https://docs.servicenow.com/csh?topicname=content-filtering-flow-designer.html)*
 
-c.  **Review Service Catalog access settings in development**
+**Review Service Catalog access settings in development**
 
-Review App Engine Studio developer access to the Catalog Builder
-tool's catalog item templates and catalogs / categories, and update
-access as necessary.
+Review App Engine Studio developer access to the Catalog Builder tool's catalog item templates and catalogs / categories, and update access as necessary.
 
-By default, App Engine Studio developers can leverage catalog
-templates to quickly create record producers or catalog items.
-Developers can also publish catalog items to any catalog. If you wish
-to limit access to templates or restrict publishing access to catalogs
-or categories, update the access accordingly in Catalog Builder.
+By default, App Engine Studio developers can leverage catalog templates to quickly create record producers or catalog items. Developers can also publish catalog items to any catalog. If you wish to limit access to templates or restrict publishing access to catalogs or categories, update the access accordingly in Catalog Builder.
 
 ![](/images/image10.png)
 
 
 This step is not required as part of the initial application setup.
 
-Catalog access from App Engine Studio can be updated at a later point
-to modify developer access to App Engine Studio catalogs, categories,
-and catalog templates.
+Catalog access from App Engine Studio can be updated at a later point to modify developer access to App Engine Studio catalogs, categories, and catalog templates.
 
 *For more information on creating or editing catalog items, see
-[[Product]](https://docs.servicenow.com/csh?topicname=catalog-builder.html)
-[[Documentation: Catalog
-Builder]](https://docs.servicenow.com/csh?topicname=catalog-builder.html)*
+[[Product Documentation: Catalog Builder]](https://docs.servicenow.com/csh?topicname=catalog-builder.html)*
 
-d.  **Configure Instance Scan definitions**
+**Configure Instance Scan definitions**
 
 Deploy custom applications with confidence by setting up Instance Scan
 definitions to monitor instance health throughout the deployment
@@ -455,41 +438,28 @@ Scan definitions and enforce best practices in your environments.
 ![](/images/image11.jpeg)
 
 
-#### Enable and configure Instance Scan properties in your production instance if you plan to clone! {#enable-and-configure-instance-scan-properties-in-your-production-instance-if-you-plan-to-clone}
+**Enable and configure Instance Scan properties in your production instance if you plan to clone!**
 
 *For more information on managing instance health scans, see
-[[Product]](https://docs.servicenow.com/csh?topicname=hs-landing-page.html)
-[[Documentation: Instance
-Scan]](https://docs.servicenow.com/csh?topicname=hs-landing-page.html)*
+[[Product Documentation: Instance Scan]](https://docs.servicenow.com/csh?topicname=hs-landing-page.html)*
 
-2.  **[Set up user access]**
+**Set up user access**
 
-Configure the admin group and other general settings for App Engine
-Studio users.
+Configure the admin group and other general settings for App Engine Studio users.
 
-a.  **Set up administrator group in development**
+**Set up administrator group in development**
 
-Configure App Engine Studio administrator group membership in the
-[development] instance to manage development activities
-that occur in the development environment.
+Configure App Engine Studio administrator group membership in the [development] instance to manage development activities that occur in the development environment.
 
 ![](/images/image12.jpeg)
 
 
-While development activities will be managed in the
-[development] instance, administrators manage application
-intake, collaboration, and deployment requests in
-[production].
+While development activities will be managed in the [development] instance, administrators manage application intake, collaboration, and deployment requests in [production].
 
-Group membership does not sync across instances; therefore, system
-administrators are required to add users in both the development and
-production instances.
+Group membership does not sync across instances; therefore, system administrators are required to add users in both the development and production instances.
 
-***Note**: Group membership does not sync across instances, therefore
-App Engine Studio administrator group membership will also need to be
-provisioned in the [production] instance as part of the
-Pipelines and Deployment or Application Intake Guided Setup
-activities*
+***Note**: Group membership does not sync across instances, therefore App Engine Studio administrator group membership will also need to be
+provisioned in the [production] instance as part of the Pipelines and Deployment or Application Intake Guided Setup activities*
 
 b.  **Grant access to current developers in development**
 
@@ -509,8 +479,13 @@ the 'App Engine Studio Users' group.
 
 ![](/images/image13.png)
 
+[Back to top](#top){: .btn .btn-purple }
 
-[]{#_bookmark10 .anchor}**Pipeline and Deployment Guided Setup**
+---
+
+## Pipeline and Deployment Guided Setup
+*Part of: How do I configure App Engine Studio?*
+
 
 Once App Engine Studio Guided Setup has been completed, administrators
 must complete the Pipeline and Deployment Guided Setup activities.
@@ -583,6 +558,7 @@ Alias records.
 
 Credential Alias
 
+```
 +----------------+-----------------------------------------------------+
 | Field          | Description                                         |
 +================+=====================================================+
@@ -621,6 +597,7 @@ Credential Alias
 |                | based on the format scope_name.alias_name and is    |
 |                | read-only.                                          |
 +----------------+-----------------------------------------------------+
+```
 
 Based on the credential information, take the appropriate approach in
 configuring Credential Alias records:
@@ -682,6 +659,7 @@ all sub-production Environment records.**
 
 **Environments**
 
+```
 +----------------+-----------------------------------------------------+
 | **Field**      | **Description**                                     |
 +================+=====================================================+
@@ -739,6 +717,7 @@ all sub-production Environment records.**
 |                |                                                     |
 |                | **Production**!                                     |
 +----------------+-----------------------------------------------------+
+```
 
 *For more information, see [[Product Documentation: Define
 environments]](https://docs.servicenow.com/csh?topicname=create-environment.html)*
@@ -757,6 +736,7 @@ include along with their position in the pipeline.
 
 **Pipelines**
 
+```
   -----------------------------------------------------------------------
   **Field**         **Description**
   ----------------- -----------------------------------------------------
@@ -767,7 +747,9 @@ include along with their position in the pipeline.
   Source            The environment where development activities take
   Environment       place in the deployment pipeline.
   -----------------------------------------------------------------------
+```
 
+```
 +----------------+-----------------------------------------------------+
 |                | Each pipeline must have a unique Source             |
 |                | environment.                                        |
@@ -789,6 +771,7 @@ include along with their position in the pipeline.
 |                | instance where the App Engine Studio application is |
 |                | installed.                                          |
 +----------------+-----------------------------------------------------+
+```
 
 Once a pipeline has been created, use the **Pipeline Environments
 Order** Related List on the Pipeline record to configure the instance
@@ -812,7 +795,7 @@ the 'Source Environment' on the Pipeline record, a Pipeline
 Environment Order related record is not required*
 
 **Pipeline Environment Orders**
-
+```
 +----------------+-----------------------------------------------------+
 | **Field**      | **Description**                                     |
 +================+=====================================================+
@@ -836,12 +819,12 @@ Environment Order related record is not required*
 |                | application picker to change the current session's  |
 |                | scope.                                              |
 +----------------+-----------------------------------------------------+
+```
 
 *For more information, see [[Product Documentation: Create a
 pipeline]](https://docs.servicenow.com/csh?topicname=create-pipeline.html)*
 
-b.  **Add users to the App Engine Studio Administrators group in
-    production instance**
+b.  **Add users to the App Engine Studio Administrators group in production instance**
 
 Configure App Engine Studio administrator group membership in the
 [production] instance to manage application intake and
@@ -872,27 +855,21 @@ You will also enable the system properties that will allow the
 Automated Test Framework (ATF) suite to run during the deployment
 process.
 
-#### Complete these tasks only if you are logged into a sub-production instance. {#complete-these-tasks-only-if-you-are-logged-into-a-sub-production-instance.}
+**Complete these tasks only if you are logged into a sub-production instance.**
 
-a.  **Install the 'Deployment Pipeline' plugin in each sub-production
-    instance**
+a.  **Install the 'Deployment Pipeline' plugin in each sub-production instance**
 
-To install the Deployment Pipeline plugin,
-(*com.snc.deployment-pipeline)*, login to any sub-production instance
-and navigate to **System Definition \Plugins.**
+To install the Deployment Pipeline plugin, (*com.snc.deployment-pipeline)*, login to any sub-production instance and navigate to **System Definition \Plugins.**
 
 Use the search criteria to find the application. Click **Install**.
 
-Repeat and install the Deployment Pipeline plugin in each
-sub-production instance.
+Repeat and install the Deployment Pipeline plugin in each sub-production instance.
 
 ![](/images/image22.png)
 
-***Note:** If you have already installed the App Engine Studio bundle
-in the development instance and promoted up to production, skip this
-step*
+***Note:** If you have already installed the App Engine Studio bundle in the development instance and promoted up to production, skip this step*
 
-#### Repeat this task on each sub-production instance that will be part of a pipeline, {#repeat-this-task-on-each-sub-production-instance-that-will-be-part-of-a-pipeline}
+**Repeat this task on each sub-production instance that will be part of a pipeline**
 
 b.  **Configure credentials in each sub-production instance**
 
@@ -917,9 +894,6 @@ Alias created in the production instance
 
 -   i.e., single Credential Alias record named '*Pipeline Credentials'*
 
-```{=html}
-<!-- -->
-```
 -   If each environment in the Deployment Pipeline will use
     [different] credentials (different usernames /
     passwords), then create a single Credential Alias records with the
@@ -927,8 +901,7 @@ Alias created in the production instance
 
     -   i.e., single Credential Alias records named '*Prod Credentials'*
 
-*Repeat this task on each sub-production instance that will be part of
-a pipeline,*
+**Repeat this task on each sub-production instance that will be part of a pipeline,**
 
 ***Note**: Ensure the username(s) and password(s) provided exist in
 the production instance and the User is assigned the correct roles.*
@@ -957,56 +930,28 @@ are not overwritten when the production instance is cloned down to
 sub-production instances.
 
 App Engine Studio has data preservers on the following tables:
-
 -   Pipeline Instance
-
 -   Request Authorization Key
-
 -   Deployment Request
-
 -   Deployment Environment Request
 
-To ensure application and developer data is not lost in development
-environments during a clone, add **data preservers** to the following:
+To ensure application and developer data is not lost in development environments during a clone, add **data preservers** to the following:
 
 -   Collaboration Descriptor tables:
-
-```{=html}
-<!-- -->
-```
 -   App Collaboration Descriptors **\[sys_appcollab_descriptor\]**
-
--   App Collaboration Descriptor Permissions
-
-**\[sys_appcollab_permission_m2m\]**
-
+-   App Collaboration Descriptor Permissions **\[sys_appcollab_permission_m2m\]**
 -   Collaboration Users and Groups tables:
-
-```{=html}
-<!-- -->
-```
 -   App Collaboration Users **\[sys_appcollab_user\]**
-
 -   App Collaboration Groups **\[sys_appcollab_group\]**
 
-Additionally, add **clone excludes** for the following Collaboration
-Descriptor tables. so that data in these tables are preserved after
-cloning and that no data from the source instance gets copied over. It
-is ok to have data merge from source and target for collaboration
-users and groups tables.
+Additionally, add **clone excludes** for the following Collaboration Descriptor tables. so that data in these tables are preserved after cloning and that no data from the source instance gets copied over. It is ok to have data merge from source and target for collaboration users and groups tables.
 
 -   App Collaboration Descriptors **\[sys_appcollab_descriptor\]**
+-   App Collaboration Descriptor Permissions **\[sys_appcollab_permission_m2m\]**
 
--   App Collaboration Descriptor Permissions
+After cloning, a post-clone clean-up script is needed to reassign users and groups the appropriate delegated development permissions. We assume that in-development applications are backed up before cloning and users/groups are same between target and source instance.
 
-**\[sys_appcollab_permission_m2m\]**
-
-After cloning, a post-clone clean-up script is needed to reassign
-users and groups the appropriate delegated development permissions. We
-assume that in-development applications are backed up before cloning
-and users/groups are same between target and source instance.
-
-#### Repeat this task on each sub-production instance that will be part of a pipeline, {#repeat-this-task-on-each-sub-production-instance-that-will-be-part-of-a-pipeline-1}
+**Repeat this task on each sub-production instance that will be part of a pipeline**
 
 ***Note:** New App Engine Studio customers (Tokyo +) will only have
 data preservers on the tables listed above. Existing customers
@@ -1027,23 +972,11 @@ but will not impact the flow.
 ![](/images/image23.jpeg)
 
 -   **Enable test / test suite execution *(sn_atf.runner.enabled)***
-
-    -   Check this box on the ***[testing]*** instance to
-        enable automated tests to run as part of the application
-        deployment process
-
-    -   The default value is false so that ATF tests do not run on
-        production instances
-
-    -   This property is private; changes to its value will not move
-        between instances
-
--   **Enable scheduled test suite execution
-    *(sn_atf.schedule.enabled)***
-
-    -   The 'Enable test / test suite execution' property must be
-
-enabled to enable this property
+    -   Check this box on the ***[testing]*** instance to enable automated tests to run as part of the application deployment process
+    -   The default value is false so that ATF tests do not run on production instances
+    -   This property is private; changes to its value will not move between instances
+        -   **Enable scheduled test suite execution *(sn_atf.schedule.enabled)***
+    -   The 'Enable test / test suite execution' property must be enabled to enable this property
 
 -   Check this box on the ***[testing]*** instance to enable
     scheduled automated test suites to run as part of the application
@@ -1059,89 +992,63 @@ If you do not enable these properties on the testing instance you will
 receive a warning during the deployment process, but you will be able
 to continue with deployment and the flow will continue.
 
-#### Enable ATF properties in your production instance if you plan to clone! {#enable-atf-properties-in-your-production-instance-if-you-plan-to-clone}
+**Enable ATF properties in your production instance if you plan to clone!**
 
 ***Note**: Ensure that the controller instance was configured on all
 sub-production instances that are part of a pipeline!*
 
-[]{#_bookmark11 .anchor}**Application Intake Guided Setup**
+[Back to top](#top){: .btn .btn-purple }
 
-Navigate to **App Engine Studio \Application Intake \Guided
-Setup** in your [production] instance to access the
-Application Intake Guided Setup.
+---
+
+## Application Intake Guided Setup
+*Part of: How do I configure App Engine Studio?*
+
+Navigate to **App Engine Studio \Application Intake \Guided Setup** in your [production] instance to access the Application Intake Guided Setup.
 
 ![](/images/image24.jpeg)
 
-
-***Note**: Before beginning Application Intake Guided Setup, ensure
-your application scope is set to*
-
-*'Application Intake'. If not, use the application picker to change
-the current session's scope*
+***Note**: Before beginning Application Intake Guided Setup, ensure your application scope is set to 'Application Intake'. If not, use the application picker to change the current session's scope.*
 
 ![](/images/image25.png)
 
 
-1.  **[Turn on and configure the intake request process in
-    production]**
+1.  **[Turn on and configure the intake request process in production]**
 
-You'll need to activate the catalog item on your **production
-instance** and configure settings to enable auto-provisioning of users
-to a development instance if their intake request is approved.
+You'll need to activate the catalog item on your **production instance** and configure settings to enable auto-provisioning of users to a development instance if their intake request is approved.
 
-a.  **Activate the catalog item where developers will submit their
-    application ideas**
+a.  **Activate the catalog item where developers will submit their application ideas**
 
 ![](/images/image26.jpeg)
 
 
-Activate the 'Apply for Citizen Development' catalog item and allow
-developers to submit application ideas for screening by the App Engine
-Studio Administrators.
+Activate the 'Apply for Citizen Development' catalog item and allow developers to submit application ideas for screening by the App Engine Studio Administrators.
 
-The application intake request is used to capture information from
-business users submitting application ideas to the App Engine Studio
-Administrators group for review.
+The application intake request is used to capture information from business users submitting application ideas to the App Engine Studio Administrators group for review.
 
-Administrators can modify the out-of-box catalog item in Catalog
-Builder according to organizational needs so that all necessary
-information is captured from requestors.
+Administrators can modify the out-of-box catalog item in Catalog Builder according to organizational needs so that all necessary information is captured from requestors.
 
 b.  **Activate user provisioning**
 
 ![](/images/image27.jpeg)
 
+Activate the property on your [production] instance to allow the system to provision users to the App Engine Studio Users group in a target development instance upon the approval of an application intake request.
 
-Activate the property on your [production] instance to
-allow the system to provision users to the App Engine Studio Users
-group in a target development instance upon the approval of an
-application intake request.
-
-Set the value of the **sn_app_intake.instance_can_provision_users**
-system property to **true**.
+Set the value of the **sn_app_intake.instance_can_provision_users** system property to **true**.
 
 2.  **[Configure development environments for users]**
 
-You'll need to activate the catalog item on your **production
-instance** and configure settings to enable auto-provisioning of users
-to a development instance if their intake request is approved.
+You'll need to activate the catalog item on your **production instance** and configure settings to enable auto-provisioning of users to a development instance if their intake request is approved.
 
-a.  **Create environment record(s) for development instances in
-    production**
+a.  **Create environment record(s) for development instances in production**
 
-In the [production] instance, create new Environment
-records for each development environment you would like to provision
-users to upon approving application intake requests. For the user
-provisioning to work on the target instances, the 'Instance Type'
-value must be set to **Development**.
+In the [production] instance, create new Environment records for each development environment you would like to provision users to upon approving application intake requests. For the user provisioning to work on the target instances, the 'Instance Type' value must be set to **Development**.
 
-If these records have already been setup as part of the Pipelines and
-Deployment Guided Setup, skip this step
+If these records have already been setup as part of the Pipelines and Deployment Guided Setup, skip this step
 
-***Note:** For the Application Intake plugin to work correctly, App
-Engine Studio must be installed on the production instance*
+***Note:** For the Application Intake plugin to work correctly, App Engine Studio must be installed on the production instance*
 
-[Back to top](#top)
+[Back to top](#top){: .btn .btn-purple }
 
 ---
 
@@ -1149,215 +1056,122 @@ Engine Studio must be installed on the production instance*
 
 ## Grant and revoke access {#grant-and-revoke-access}
 
-When user provisioning has been configured as part of the Application
-Intake Guided Setup, users are automatically added to the App Engine
-Studio Users assignment group (in the target development instance)
-upon the approval of a submitted application intake request.
+When user provisioning has been configured as part of the Application Intake Guided Setup, users are automatically added to the App Engine Studio Users assignment group (in the target development instance) upon the approval of a submitted application intake request.
 
-Additionally, system administrators can manually manage group
-membership to the 'App Engine Studio Users assignment group by
-navigating to **All \User Administration \Groups** and opening the
-'App Engine Studio Users' record.
+Additionally, system administrators can manually manage group membership to the 'App Engine Studio Users assignment group by navigating to **All \User Administration \Groups** and opening the 'App Engine Studio Users' record.
 
-Once added to the group, members are assigned the
-**sn_app_eng_studio.user** role, allowing them to access and build in
-App Engine Studio.
+Once added to the group, members are assigned the **sn_app_eng_studio.user** role, allowing them to access and build in App Engine Studio.
 
-[Before granting access to the App Engine Studio application, ensure
-users have completed the] [appropriate citizen development
-learning paths and trainings available in Now Learning!]
+[Before granting access to the App Engine Studio application, ensure users have completed the] [appropriate citizen development learning paths and trainings available in Now Learning!]
 
 ![](/images/image28.png)
 
-
 **Considerations for development security:**
 
--   Ensure an application owner and support team(s) have been identified
-    to own and support the application once in production
+-   Ensure an application owner and support team(s) have been identified to own and support the application once in production
+-   Add users to the 'App Engine Studio Users' assignment group instead of assigning the **sn_app_eng_studio.user** role to users directly
+-   Consider creating multiple App Engine Studio developer groups to accommodate developers of different skill / experience levels
+    -   i.e., one assignment group for experienced developers with enhanced permissions, and another group for less experienced developers with restricted access to platform features -- managed via delegated development
 
--   Add users to the 'App Engine Studio Users' assignment group instead
-    of assigning the
+*For more information, see [[Product Documentation: Grant access to App Engine Studio]](https://docs.servicenow.com/csh?topicname=grant-aes-access.html)*
 
-**sn_app_eng_studio.user** role to users directly
+[Back to top](#top){: .btn .btn-purple }
 
--   Consider creating multiple App Engine Studio developer groups to
-    accommodate developers of different skill / experience levels
-
-    -   i.e., one assignment group for experienced developers with
-        enhanced permissions, and another group for less experienced
-        developers with restricted access to platform features --
-        managed via delegated development
-
-*For more information, see [[Product Documentation: Grant access to
-App Engine
-Studio]](https://docs.servicenow.com/csh?topicname=grant-aes-access.html)*
+---
 
 ## Manage collaboration and delegated development {#manage-collaboration-and-delegated-development}
 
-In App Engine Studio, application owners can submit collaboration
-requests to have other users added as collaborators to assist them in
-delivering applications.
+In App Engine Studio, application owners can submit collaboration requests to have other users added as collaborators to assist them in delivering applications.
 
-App Engine Studio's collaboration feature uses delegated development,
-allowing application
+App Engine Studio's collaboration feature uses delegated development, allowing application owners to pick the level of access collaborators have to an application.
 
-owners to pick the level of access collaborators have to an
-application.
-
-The **admin** role is required to create custom App Engine Studio
-roles available to developers when adding collaborators.
+The **admin** role is required to create custom App Engine Studio roles available to developers when adding collaborators.
 
 ![](/images/image29.jpeg)
 
 
-When a collaboration request is submitted and the collaborator already
-has access to App Engine Studio (belongs to the 'App Engine Studio
-Users' group), then the request will be approved automatically.
+When a collaboration request is submitted and the collaborator already has access to App Engine Studio (belongs to the 'App Engine Studio Users' group), then the request will be approved automatically.
 
-If the requested collaborator does not already have access, App Engine
-Studio administrators are responsible for reviewing assigned
-Collaboration Task details. When approved, the system will
-automatically grant App Engine Studio access for the requested
-collaborator in the specified target development instance
+If the requested collaborator does not already have access, App Engine Studio administrators are responsible for reviewing assigned Collaboration Task details. When approved, the system will automatically grant App Engine Studio access for the requested collaborator in the specified target development instance
 
-App Engine Studio administrators can access Collaboration Requests in
-the [production] instance from the App Engine Management
-Center or by navigating to **App Engine \Collaboration \>
-Collaboration Tasks.**
+App Engine Studio administrators can access Collaboration Requests in the [production] instance from the App Engine Management Center or by navigating to **App Engine \Collaboration \> Collaboration Tasks.**
 
-For more information, see: *[[Product Documentation: Delegated
-development in App
-Engine]](https://docs.servicenow.com/csh?topicname=aes-app-dev-workflow.html)
-[[Studio]](https://docs.servicenow.com/csh?topicname=aes-app-dev-workflow.html)*
+For more information, see: *[[Product Documentation: Delegated development in App Engine]](https://docs.servicenow.com/csh?topicname=aes-app-dev-workflow.html) [[Studio]](https://docs.servicenow.com/csh?topicname=aes-app-dev-workflow.html)*
 
-[Back to top](#top)
+[Back to top](#top){: .btn .btn-purple }
 
 ---
 
 # How do I manage application intake requests? {#how-do-i-manage-application-intake-requests}
 
-***Note**: Before editing the Application Intake process, ensure your
-application scope is set to*
-
-*'**Application Intake'**. If not, use the application picker to
-change the current session's scope*
+***Note**: Before editing the Application Intake process, ensure your application scope is set to **'**Application Intake'**. If not, use the application picker to change the current session's scope*
 
 ![](/images/image30.png)
 
+[Back to top](#top){: .btn .btn-purple }
+
+---
 
 ## Configure the application intake request form {#configure-the-application-intake-request-form}
 
-Administrators can configure the out-of-box application intake request
-form to capture the necessary information from custom application
-requestors, according to organizational needs. The intake form is
-installed with the **Application Intake** plugin and can be modified
-in Catalog Builder.
+Administrators can configure the out-of-box application intake request form to capture the necessary information from custom application requestors, according to organizational needs. The intake form is installed with the **Application Intake** plugin and can be modified in Catalog Builder.
 
 ## Access and review application intake requests {#access-and-review-application-intake-requests}
 
-When application ideas are submitted by requestors, approval records
-are created and assigned to users in the App Engine Studio
-Administrators group.
+When application ideas are submitted by requestors, approval records are created and assigned to users in the App Engine Studio Administrators group.
 
-App Engine Studio administrators can access assigned requests in the
-[production] instance from the App Engine Management
-Center or by navigating to **Self Service \Requested Items**.
+App Engine Studio administrators can access assigned requests in the [production] instance from the App Engine Management Center or by navigating to **Self Service \Requested Items**.
 
-App Engine Studio Administrators will receive an email notification
-when intake requests are submitted. Administrators are responsible for
-reviewing the submitted application requests to determine if they are
-a suitable use case for development in App Engine Studio.
+App Engine Studio Administrators will receive an email notification when intake requests are submitted. Administrators are responsible for reviewing the submitted application requests to determine if they are a suitable use case for development in App Engine Studio.
 
 ## Choosing the right applications for App Engine Studio {#choosing-the-right-applications-for-app-engine-studio}
 
-The first step in evaluating application requests is to make sure the
-request is not already satisfied by an existing application or will
-not be addressed as part of an upcoming ServiceNow release.
+The first step in evaluating application requests is to make sure the request is not already satisfied by an existing application or will not be addressed as part of an upcoming ServiceNow release.
 
-Administrators are then responsible for determining if App Engine
-Studio is the appropriate development environment for the application.
+Administrators are then responsible for determining if App Engine Studio is the appropriate development environment for the application.
 
 Ideal use cases for App Engine Studio development include:
 
--   Use cases where an application template already exists in App Engine
-    Studio
-
+-   Use cases where an application template already exists in App Engine Studio
 -   Simple processes that are easily translated to automated workflows
-
 -   Departmental processes managed by subject matter experts
-
 -   Applications with simple third-party integrations
-
 -   No confidential or sensitive data involved
 
-Even if an application requires advanced development, the foundational
-application work can be completed in App Engine Studio, and pro-code
-developers can easily transfer applications to ServiceNow Studio to
-perform complex development activities.
+Even if an application requires advanced development, the foundational application work can be completed in App Engine Studio, and pro-code developers can easily transfer applications to ServiceNow Studio to perform complex development activities.
 
-If the proposed application is a good candidate for development in App
-Engine Studio, click **Approve.** The requestor will receive an email
-notification informing of the request approval. App Engine Studio
-administrators are responsible for manually provisioning App Engine
-Studio access for requestors so they can begin building their
-applications.
+If the proposed application is a good candidate for development in App Engine Studio, click **Approve.** The requestor will receive an email notification informing of the request approval. App Engine Studio administrators are responsible for manually provisioning App Engine Studio access for requestors so they can begin building their applications.
 
-Before approving an application, be sure the application requestor has
-identified the application owner and support team(s) responsible for
-owning and managing the application once it is in production.
+Before approving an application, be sure the application requestor has identified the application owner and support team(s) responsible for owning and managing the application once it is in production.
 
-If the request is not viable, click **Reject.** The requestor will
-receive an email notification informing of the rejection.
+If the request is not viable, click **Reject.** The requestor will receive an email notification informing of the rejection.
 
-***Note**: Consider creating an assessment and risk profile to assist
-in screening application requests. An assessment can be configured to
-capture the application details. Based on the development effort
-required, application inputs / outputs, or other factors, a risk score
-will be generated for the application request.*
+***Note**: Consider creating an assessment and risk profile to assist in screening application requests. An assessment can be configured to capture the application details. Based on the development effort required, application inputs / outputs, or other factors, a risk score will be generated for the application request.*
 
-*Using the risk score, define a threshold for applications that are
-good candidates for App Engine Studio, or if they should instead be
-developed in ServiceNow Studio (i.e., if risk score is Low or Medium,
-the application will be approved for App Engine Studio development --
-if the risk score is High, consider building the application in
-ServiceNow Studio).*
+*Using the risk score, define a threshold for applications that are good candidates for App Engine Studio, or if they should instead be developed in ServiceNow Studio (i.e., if risk score is Low or Medium, the application will be approved for App Engine Studio development -- if the risk score is High, consider building the application in ServiceNow Studio).*
 
-*For more information, see [[Product Documentation: Intake request
-process for
-application]](https://docs.servicenow.com/csh?topicname=intake-request.html&intake-request)
-[[development
-ideas]](https://docs.servicenow.com/csh?topicname=intake-request.html&intake-request)*
+*For more information, see [[Product Documentation: Intake request process for application]](https://docs.servicenow.com/csh?topicname=intake-request.html&intake-request) [[development ideas]](https://docs.servicenow.com/csh?topicname=intake-request.html&intake-request)*
 
-[Back to top](#top)
+[Back to top](#top){: .btn .btn-purple }
 
 ---
 
 # How do I manage application deployment requests? {#how-do-i-manage-application-deployment-requests}
 
-Deployment Requests are used to track and manage an application's
-movement across
+Deployment Requests are used to track and manage an application's movement across instances.
 
-instances.
+App Engine Studio Administrators can access deployment requests in the production instance from the App Engine Management Center or by navigating to **App Engine Studio \Configuration \App Deployment Request**.
 
-App Engine Studio Administrators can access deployment requests in the
-production instance from the App Engine Management Center or by
-navigating to **App Engine Studio \Configuration \App Deployment
-Request**.
+When an application is submitted for IT review, the system generates and assigns a Deployment Request record to the App Engine Studio Administrators group.
 
-When an application is submitted for IT review, the system generates
-and assigns a Deployment Request record to the App Engine Studio
-Administrators group.
-
-Administrators can review application, requestor, and deployment
-details from the Deployment Request. Pipeline and environment
-information for applications are available in the 'Deployment Details'
-section of the request form.
+Administrators can review application, requestor, and deployment details from the Deployment Request. Pipeline and environment information for applications are available in the 'Deployment Details' section of the request form.
 
 ![](/images/image31.png)
 
 
 **Deployment Request States**
 
+```
 +----------------+-----------------------------------------------------+
 | **State**      | **Description**                                     |
 +================+=====================================================+
@@ -1385,48 +1199,25 @@ section of the request form.
 +----------------+-----------------------------------------------------+
 | Cancelled      | The Deployment Request was cancelled.               |
 +----------------+-----------------------------------------------------+
+```
 
 ## Promote an application in a pipeline {#promote-an-application-in-a-pipeline}
 
-When application developers submit an application for IT review, App
-Engine Studio administrators are assigned Approval records for the
-Deployment Requests.
+When application developers submit an application for IT review, App Engine Studio administrators are assigned Approval records for the Deployment Requests.
 
-Applications are promoted to the next instance in the Deployment
-Pipeline when administrators approve a request. Only one administrator
-is required to approve or reject a request.
+Applications are promoted to the next instance in the Deployment Pipeline when administrators approve a request. Only one administrator is required to approve or reject a request.
 
-If a request is approved, the system will trigger a sub-flow to
-promote the application to the next environment, as defined by
-Deployment Pipeline configuration.
+If a request is approved, the system will trigger a sub-flow to promote the application to the next environment, as defined by Deployment Pipeline configuration.
 
-[]{#_bookmark23 .anchor}Each time an application is promoted to a new
-instance administrators will be assigned a new Approval record. When
-approved, the application will be promoted to the next instance in the
-pipeline. This continues until the application is promoted to the
-production instance.
+Each time an application is promoted to a new instance administrators will be assigned a new Approval record. When approved, the application will be promoted to the next instance in the pipeline. This continues until the application is promoted to the production instance.
 
 ## Review and test an application {#review-and-test-an-application}
 
-Once an application has been promoted to the Testing instance, it
-should be thoroughly tested and reviewed by the application developer,
-experienced ServiceNow developers, and functional IT resources to
-ensure that the application works as expected and existing platform
-functionality is not impacted. Assign application roles in the test
-environment appropriately so that users can complete necessary testing
-activities.
+Once an application has been promoted to the Testing instance, it should be thoroughly tested and reviewed by the application developer, experienced ServiceNow developers, and functional IT resources to ensure that the application works as expected and existing platform functionality is not impacted. Assign application roles in the test environment appropriately so that users can complete necessary testing activities.
 
-As part of the application deployment process, Automated Test
-Framework (ATF) tests / suites and Instance Scan definitions will
-automatically run when the application is promoted to an instance of
-Type = Testing (if multiple instances are configured with Type =
-Testing, then the test suites and definitions will run on each
-instance). ATF and Instance Scan results will be logged in the Notes
-section of the Deployment Request and available in the 'Deployment
-Environment Results' related list.
+As part of the application deployment process, Automated Test Framework (ATF) tests / suites and Instance Scan definitions will automatically run when the application is promoted to an instance of Type = Testing (if multiple instances are configured with Type = Testing, then the test suites and definitions will run on each instance). ATF and Instance Scan results will be logged in the Notes section of the Deployment Request and available in the 'Deployment Environment Results' related list.
 
-As your citizen development program scales, consider implementing an
-application 'risk profile' to dictate the level of testing required to
+As your citizen development program scales, consider implementing an application 'risk profile' to dictate the level of testing required to
 more efficiently allocate testing resources. For example, an
 application containing a Script Include will have a higher risk
 profile than an application built with a template and minimal
@@ -1483,7 +1274,7 @@ sharing]](https://docs.servicenow.com/csh?topicname=c_SharingApplications.html)*
 [*[Product Documentation: Publish an application to the application
 repository]*](https://docs.servicenow.com/csh?topicname=t_PublishAppsToTheAppRepository.html)
 
-[Back to top](#top)
+[Back to top](#top){: .btn .btn-purple }
 
 ---
 
@@ -1511,7 +1302,7 @@ make it available to developers by publishing it in App Engine Studio.
 *For more information, see [[Product Documentation: Custom
 templates]](https://docs.servicenow.com/csh?topicname=work-custom-templates.html)*
 
-[Back to top](#top)
+[Back to top](#top){: .btn .btn-purple }
 
 ---
 
@@ -1597,13 +1388,13 @@ are promoted to the test instance and can also be executed ad-hoc.
 Framework
 (ATF)]](https://docs.servicenow.com/csh?topicname=automated-test-framework.html)*
 
-[Back to top](#top)
+[Back to top](#top){: .btn .btn-purple }
 
 ---
 
 # FAQs {#faqs}
 
-### Can applications be accessed from App Engine Studio to ServiceNow Studio, and vice-versa? {#can-applications-be-accessed-from-app-engine-studio-to-servicenow-studio-and-vice-versa}
+**Can applications be accessed from App Engine Studio to ServiceNow Studio, and vice-versa?**
 
 Yes. Applications built in App Engine Studio are accessible from
 ServiceNow Studio.

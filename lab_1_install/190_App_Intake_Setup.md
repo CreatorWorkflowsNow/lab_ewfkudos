@@ -1,8 +1,8 @@
 ---
 layout: default
 title: App Intake Setup
-parent: Lab 1 | Configure AES
-nav_order: 30
+parent: 1 | Install
+nav_order: 190
 ---
 
 # App Intake Setup
@@ -32,4 +32,4 @@ nav_order: 30
 [Next][NEXT]{: .btn .btn-purple }
 
 [PREVIOUS]: ../20_Pipeline_and_Deployment_Setup
-[NEXT]: ../../lab_2_Manage_Access
+[NEXT]: ../../lab_2_configure

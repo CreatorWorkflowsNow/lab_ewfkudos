@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Lab Guide Overview
+title: Overview
 nav_order: 0
 ---
 
@@ -27,7 +27,7 @@ We will cover concepts such as Pipelines and Deployments, Onboarding Developers,
 
 
 [PreReqInfo]: /pre_req_info/
-[Lab1]: /lab_1_Configure_AES/
+[Lab1]: /lab_1_install/
 [Lab2]: /lab_2_Manage_Access/
 [Lab3]: /lab_3_Manage_App_Intake/
 [Lab4]: /lab_4_Manage_App_Deployment/

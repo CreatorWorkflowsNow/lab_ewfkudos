@@ -1,11 +1,12 @@
 ---
 layout: default
-title: App Intake Requests
-parent: Lab 3 | App Intake
-nav_order: 10
+title: Manage collaboration
+parent: 2 | Configure
+nav_order: 20
 ---
 
-# App Intake Requests
+
+# Collaboration and Delegated Development
 {: .no_toc }
 
 **Duration: TBD minutes**

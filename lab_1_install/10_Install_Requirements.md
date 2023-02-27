@@ -1,16 +1,13 @@
 ---
 layout: default
 title: Install Requirements
-parent: Pre-Req Info
-nav_order: 30
+parent: 1 | Install
+nav_order: 110
 ---
 <link rel="stylesheet" href="../style.css">
 
 # Install Requirements
 {: .no_toc }
-
-[Previous][PREVIOUS]{: .btn .mr-4 }
-[Next][NEXT]{: .btn .btn-purple }
 
 {: .highlight}
 > This overview is for information purposes only. 
@@ -48,9 +45,3 @@ flowchart LR
     A[Dev] --> B[Test] --> C[Stage] --> D[Prod]
 ```
 {: .fs-6 .fw-300 }
-
-[Previous][PREVIOUS]{: .btn .mr-4 }
-[Next][NEXT]{: .btn .btn-purple }
-
-[PREVIOUS]: ../20_Personas_and_roles
-[NEXT]: ../../lab_1_Configure_AES

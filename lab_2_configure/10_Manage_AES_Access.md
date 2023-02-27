@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Manage AES Access
-parent: Lab 2 | Manage AES Access
+parent: 2 | Configure
 nav_order: 10
 ---
 

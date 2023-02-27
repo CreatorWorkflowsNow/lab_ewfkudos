@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Pipeline and Deployment Setup
-parent: Lab 1 | Configure AES
-nav_order: 20
+parent: 1 | Install
+nav_order: 120
 ---
 
 # Pipeline and Deployment Setup

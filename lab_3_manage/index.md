@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Lab 3 | App Intake
+title: 3 | Manage
 nav_order: 30
 has_children: true
 ---

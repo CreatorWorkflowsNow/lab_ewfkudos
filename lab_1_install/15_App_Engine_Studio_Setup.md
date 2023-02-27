@@ -1,8 +1,8 @@
 ---
 layout: default
 title: App Engine Studio Setup
-parent: Lab 1 | Configure AES
-nav_order: 15
+parent: 1 | Install
+nav_order: 150
 ---
 
 # App Engine Studio Setup

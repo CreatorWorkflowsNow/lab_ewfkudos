@@ -1,12 +1,11 @@
 ---
 layout: default
-title: Manage collaboration
-parent: Lab 2 | Manage AES Access
-nav_order: 20
+title: App Intake Requests
+parent: 3 | Manage
+nav_order: 10
 ---
 
-
-# Collaboration and Delegated Development
+# App Intake Requests
 {: .no_toc }
 
 **Duration: TBD minutes**

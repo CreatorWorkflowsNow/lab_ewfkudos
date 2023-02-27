@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Lab 2 | Manage AES Access
+title: 2 | Configure
 nav_order: 20
 has_children: true
 ---

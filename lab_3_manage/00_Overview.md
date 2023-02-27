@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Overview
-parent: Lab 3 | App Intake
+parent: 3 | Manage
 nav_order: 5
 ---
 

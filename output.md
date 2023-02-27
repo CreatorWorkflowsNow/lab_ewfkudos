@@ -295,7 +295,7 @@ This step is not required as part of the initial application setup.
 
 As your organization's citizen development program matures and scales, additional spokes can be installed and connected based on application demand and use cases.
 
-*For more information on integrations with third-party systems, see [[Product Documentation: Integration Hub]](https://docs.servicenow.com/csh?topicname=integrationhub.html)*
+*For more information on integrations with third-party systems, see [Product Documentation: Integration Hub](https://docs.servicenow.com/csh?topicname=integrationhub.html)*
 
 **Review Flow Designer access settings from App Engine Studio in development**
 

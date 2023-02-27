@@ -24,56 +24,23 @@ The content in this guide applies to App Engine Studio v22.0.3.
 
 # App Engine Studio Overview {#app-engine-studio-overview}
 
-App Engine, powered by the Now Platform, fuels rapid delivery of
-Creator Workflows with great experiences for everyone. With more
-people building with less complexity, App Engine allows developers to
-create low-code apps fast, and safely scale cross-enterprise
-experiences that users love.
+App Engine, powered by the Now Platform, fuels rapid delivery of Creator Workflows with great experiences for everyone. With more people building with less complexity, App Engine allows developers to create low-code apps fast, and safely scale cross-enterprise experiences that users love.
 
-App Engine Studio is available with App Engine and is designed from
-the ground up to address low-code development needs. App Engine Studio
-enables professional developers, line of business technologists
-(citizen developers), and low-code developers to build applications
-individually or in collaborative teams on the same platform, resulting
-in faster time to value and better applications that scale without
-sprawl.
+App Engine Studio is available with App Engine and is designed from the ground up to address low-code development needs. App Engine Studio enables professional developers, line of business technologists (citizen developers), and low-code developers to build applications individually or in collaborative teams on the same platform, resulting in faster time to value and better applications that scale without sprawl.
 
-With guidance-driven development flows and pre-configured application
-templates, developers across the enterprise can build and deliver apps
-quickly. Developers can leverage many out-of-box components available
-through drag-and-drop interfaces to create fulfilling user experiences
-that are critical to end-user adoption.
+With guidance-driven development flows and pre-configured application templates, developers across the enterprise can build and deliver apps quickly. Developers can leverage many out-of-box components available through drag-and-drop interfaces to create fulfilling user experiences that are critical to end-user adoption.
 
-Administrators control which applications to deploy by reviewing and
-testing applications created by App Engine Studio developers -- and by
-delegating development to business units in your organization,
-administrators are freed up to address more strategic, system-wide
-issues.
+Administrators control which applications to deploy by reviewing and testing applications created by App Engine Studio developers -- and by delegating development to business units in your organization, administrators are freed up to address more strategic, system-wide issues.
 
 ![](/images/image2.jpeg)
+ 
+*\* App Engine Studio application templates are not captured in update sets, however modifications to templates will be captured*
 
+App Engine Studio is the ideal ServiceNow development environment for no-code and low- code application development for developers of all skill levels. Pro-code developers can use App Engine Studio as a starting point for application development and easily transfer their applications to ServiceNow Studio when advanced configurations are necessary.
 
-*\* App Engine Studio application templates are not captured in update
-sets, however modifications to templates will be captured*
+Since development is supported between the two environments, low-code and pro-code developers can easily collaborate to deliver custom applications.
 
-App Engine Studio is the ideal ServiceNow development environment for
-no-code and low- code application development for developers of all
-skill levels. Pro-code developers can use App Engine Studio as a
-starting point for application development and easily transfer their
-applications to ServiceNow Studio when advanced configurations are
-necessary.
-
-Since development is supported between the two environments, low-code
-and pro-code developers can easily collaborate to deliver custom
-applications.
-
-All configurations to an application, whether performed in App Engine
-Studio or ServiceNow Studio, can be captured in the same private
-application scope. Application artifacts configured in App Engine
-Studio can also be managed in ServiceNow Studio. However, some
-application artifacts can only be accessed and configured in
-ServiceNow Studio. These include business rules, notifications, and
-service portal pages.
+All configurations to an application, whether performed in App Engine Studio or ServiceNow Studio, can be captured in the same private application scope. Application artifacts configured in App Engine Studio can also be managed in ServiceNow Studio. However, some application artifacts can only be accessed and configured in ServiceNow Studio. These include business rules, notifications, and service portal pages.
 
 [Back to top](#top){: .btn .btn-purple }
 
@@ -186,17 +153,11 @@ If your organization uses sandbox or staging environments in addition to test an
 ![](/images/image3.png)
 
 
-*Example instance strategy with one production instance and three
-sub-production instances*
+*Example instance strategy with one production instance and three sub-production instances*
 
-Sub-production instances that are most similarly configured to your
-production instance are the best candidates for test and stage
-environments. This way, administrators can more accurately find issues
-that may arise if the application is deployed to production.
+Sub-production instances that are most similarly configured to your production instance are the best candidates for test and stage environments. This way, administrators can more accurately find issues that may arise if the application is deployed to production.
 
-*For more information, see [[Product Documentation: Instance strategy
-for App Engine
-Studio]](https://docs.servicenow.com/csh?topicname=aes-instance-strategy.html)*
+*For more information, see [[Product Documentation: Instance strategy for App Engine Studio]](https://docs.servicenow.com/csh?topicname=aes-instance-strategy.html)*
 
 [Back to top](#top){: .btn .btn-purple }
 
@@ -206,48 +167,33 @@ Studio]](https://docs.servicenow.com/csh?topicname=aes-instance-strategy.html)*
 
 ## Opt-in and manage entitlements {#opt-in-and-manage-entitlements}
 
-Before installing the application from the ServiceNow Store, verify
-the instance has valid ServiceNow entitlements.
+Before installing the application from the ServiceNow Store, verify the instance has valid ServiceNow entitlements.
 
-In the ServiceNow Store, use the search criteria to find App Engine
-Studio.
+In the ServiceNow Store, use the search criteria to find App Engine Studio.
 
 ![](/images/image4.png)
+ 
+Click **Opt-in** and agree to the ServiceNow terms and conditions to verify entitlements.
 
-
-Click **Opt-in** and agree to the ServiceNow terms and conditions to
-verify entitlements.
-
-Click **Manage Entitlements** and set the 'Entitlement Type' value to
-**Entitle all Instances** (*if you prefer to manually select which
-instances which will be affected, select Entitle Selected Instances).*
+Click **Manage Entitlements** and set the 'Entitlement Type' value to **Entitle all Instances** (*if you prefer to manually select which instances which will be affected, select Entitle Selected Instances).*
 
 ## Install App Engine Studio application {#install-app-engine-studio-application}
 
-To install the App Engine Studio application
-(***com.snc.app-engine-studio***), login to your
-[development] instance and navigate to the ServiceNow
-Store.
+To install the App Engine Studio application (***com.snc.app-engine-studio***), login to your [development] instance and navigate to the ServiceNow Store.
 
-Use the search criteria to find the App Engine Studio application.
-Click **Install / Update All**.
+Use the search criteria to find the App Engine Studio application. Click **Install / Update All**.
 
 ![](/images/image5.jpeg)
-
-
-The App Engine Studio bundle will be installed in the development
-instance-- including the App Engine Studio application and all
-dependent applications.
+ 
+The App Engine Studio bundle will be installed in the development instance-- including the App Engine Studio application and all dependent applications.
 
 Repeat this process on all instances for cloning purposes.
 
 *For more information, see:*
 
--   [*[ServiceNow Store: Install a ServiceNow
-    Product]*](https://store.servicenow.com/%24appstore.do%23!/store/help?article=KB0030186)
+-   [*[ServiceNow Store: Install a ServiceNow Product]*](https://store.servicenow.com/%24appstore.do%23!/store/help?article=KB0030186)
 
--   [*[Product Documentation: Install App Engine
-    Studio]*](https://docs.servicenow.com/csh?topicname=install-aes.html)
+-   [*[Product Documentation: Install App Engine Studio]*](https://docs.servicenow.com/csh?topicname=install-aes.html)
 
 [Back to top](#top){: .btn .btn-purple }
 
@@ -257,20 +203,11 @@ Repeat this process on all instances for cloning purposes.
 
 ![](/images/image6.jpeg)
 
-***\*\*** Repeat steps across all sub-production instances, as
-necessary*
+***\*\*** Repeat steps across all sub-production instances, as necessary*
 
-***Note:** If you plan on cloning your production instance to one or
-more sub-production instances, install all App Engine Studio plugins
-on all instances prior to cloning, and enable ATF and Instance Scan
-properties in your production instance. Additionally, the AEMC plugin
-must be installed on all instances to appropriately collect
-application and developer data on development. For more information,
-see [[Product Documentation: System
-clone]](https://docs.servicenow.com/csh?topicname=c_SystemClone.html)*
+***Note:** If you plan on cloning your production instance to one or more sub-production instances, install all App Engine Studio plugins on all instances prior to cloning, and enable ATF and Instance Scan properties in your production instance. Additionally, the AEMC plugin must be installed on all instances to appropriately collect application and developer data on development. For more information, see [[Product Documentation: System clone]](https://docs.servicenow.com/csh?topicname=c_SystemClone.html)*
 
-The App Engine Studio bundle has three Guided Setup modules to assist
-in configuration:
+The App Engine Studio bundle has three Guided Setup modules to assist in configuration:
 
 [**App Engine Studio Guided Setup**](#app-engine-studio-guided-setup)
 
@@ -306,23 +243,15 @@ Navigate to **App Engine Studio \Configuration \Guided Setup** in your developme
 
 **Review and set up tooling in the development instance**
 
-Review and update App Engine Studio developer access to builder tools
-during development.
+Review and update App Engine Studio developer access to builder tools during development.
 
 **Connect spokes in development**
 
-A spoke is a scoped application that contains Flow Designer or
-Integration Hub actions or sub-flows.
+A spoke is a scoped application that contains Flow Designer or Integration Hub actions or sub-flows.
 
-System Administrators can connect IntegrationHub spokes to App Engine
-Studio, allowing developers to integrate custom applications with
-third-party systems. For example -- connecting the Slack spoke allows
-developers to post a message containing Incident details to a specific
-Slack channel each time a high priority Incident is created.
+System Administrators can connect IntegrationHub spokes to App Engine Studio, allowing developers to integrate custom applications with third-party systems. For example -- connecting the Slack spoke allows developers to post a message containing Incident details to a specific Slack channel each time a high priority Incident is created.
 
-Many Integration Hub spokes are available, but not all need to be
-connected to App Engine Studio. Review some of the common spokes below
-and install based on organizational needs.
+Many Integration Hub spokes are available, but not all need to be connected to App Engine Studio. Review some of the common spokes below and install based on organizational needs.
 
 ```
 +----------------------+-----------------------------------------------+
@@ -364,36 +293,23 @@ and install based on organizational needs.
 
 This step is not required as part of the initial application setup.
 
-As your organization's citizen development program matures and scales,
-additional spokes can be installed and connected based on application
-demand and use cases.
+As your organization's citizen development program matures and scales, additional spokes can be installed and connected based on application demand and use cases.
 
-*For more information on integrations with third-party systems, see
-[[Product]](https://docs.servicenow.com/csh?topicname=integrationhub.html)
-[[Documentation: Integration
-Hub]](https://docs.servicenow.com/csh?topicname=integrationhub.html)*
+*For more information on integrations with third-party systems, see [[Product Documentation: Integration Hub]](https://docs.servicenow.com/csh?topicname=integrationhub.html)*
 
 **Review Flow Designer access settings from App Engine Studio in development**
 
-Review and update App Engine Studio developer access settings to Flow
-Designer Resources and update as necessary.
+Review and update App Engine Studio developer access settings to Flow Designer Resources and update as necessary.
 
-Developers can leverage Flow Designer capabilities while creating
-logic and automation for custom applications.
+Developers can leverage Flow Designer capabilities while creating logic and automation for custom applications.
 
-Consider restricting developer access to Flow Designer Resources using
-content filtering for Flow Designer. This allows administrators to
-manage access to Flow Designer resources and specify which features
-App Engine Studio users can leverage while building applications.
+Consider restricting developer access to Flow Designer Resources using content filtering for Flow Designer. This allows administrators to manage access to Flow Designer resources and specify which features App Engine Studio users can leverage while building applications.
 
 ![](/images/image9.jpeg)
 
-
 This step is not required as part of the initial application setup.
 
-Flow Designer access from App Engine Studio can be updated later to
-provide developers the editing capabilities that best suit their
-experience and needs.
+Flow Designer access from App Engine Studio can be updated later to provide developers the editing capabilities that best suit their experience and needs.
 
 *For more information on Flow Designer resources, see [[Product Documentation: Content Filtering for Flow Designer]](https://docs.servicenow.com/csh?topicname=content-filtering-flow-designer.html)*
 
@@ -415,33 +331,19 @@ Catalog access from App Engine Studio can be updated at a later point to modify 
 
 **Configure Instance Scan definitions**
 
-Deploy custom applications with confidence by setting up Instance Scan
-definitions to monitor instance health throughout the deployment
-process. Instance scans interrogate your instance for configurations
-and health issues, allowing administrators an opportunity to address
-best practices and to avoid similar configuration issues in the
-future.
+Deploy custom applications with confidence by setting up Instance Scan definitions to monitor instance health throughout the deployment process. Instance scans interrogate your instance for configurations and health issues, allowing administrators an opportunity to address best practices and to avoid similar configuration issues in the future.
 
-Instance Scan definitions are executed automatically when App Engine
-Studio applications are promoted to the **Testing** instance. Instance
-Scan results will be logged in the Notes section of the Deployment
-Request record.
+Instance Scan definitions are executed automatically when App Engine Studio applications are promoted to the **Testing** instance. Instance Scan results will be logged in the Notes section of the Deployment Request record.
 
-The App Engine Studio application does not ship with any out-of-box
-Instance Scan definitions (however a few Instance Scan definitions are
-installed with the Deployment Pipeline plugin to run basic performance
-checks).
+The App Engine Studio application does not ship with any out-of-box Instance Scan definitions (however a few Instance Scan definitions are installed with the Deployment Pipeline plugin to run basic performance checks).
 
-Work with professional ServiceNow developers to configure Instance
-Scan definitions and enforce best practices in your environments.
+Work with professional ServiceNow developers to configure Instance Scan definitions and enforce best practices in your environments.
 
 ![](/images/image11.jpeg)
 
-
 **Enable and configure Instance Scan properties in your production instance if you plan to clone!**
 
-*For more information on managing instance health scans, see
-[[Product Documentation: Instance Scan]](https://docs.servicenow.com/csh?topicname=hs-landing-page.html)*
+*For more information on managing instance health scans, see [[Product Documentation: Instance Scan]](https://docs.servicenow.com/csh?topicname=hs-landing-page.html)*
 
 **Set up user access**
 
@@ -458,24 +360,17 @@ While development activities will be managed in the [development] instance, admi
 
 Group membership does not sync across instances; therefore, system administrators are required to add users in both the development and production instances.
 
-***Note**: Group membership does not sync across instances, therefore App Engine Studio administrator group membership will also need to be
-provisioned in the [production] instance as part of the Pipelines and Deployment or Application Intake Guided Setup activities*
+***Note**: Group membership does not sync across instances, therefore App Engine Studio administrator group membership will also need to be provisioned in the [production] instance as part of the Pipelines and Deployment or Application Intake Guided Setup activities*
 
 b.  **Grant access to current developers in development**
 
-Allow existing application developers who are already assigned the
-**delegated_developer** role access to the App Engine Studio
-application by adding them to the 'App Engine Studio Users' assignment
-group.
+Allow existing application developers who are already assigned the **delegated_developer** role access to the App Engine Studio application by adding them to the 'App Engine Studio Users' assignment group.
 
-***Note:** If you wish to grant multiple developers access at one
-time, advance to the next step to manage access more efficiently*
+***Note:** If you wish to grant multiple developers access at one time, advance to the next step to manage access more efficiently*
 
 c.  **Grant access to other users in development**
 
-After provisioning access for existing developers, grant App Engine
-Studio access to other users within the organization by adding them to
-the 'App Engine Studio Users' group.
+After provisioning access for existing developers, grant App Engine Studio access to other users within the organization by adding them to the 'App Engine Studio Users' group.
 
 ![](/images/image13.png)
 
@@ -486,75 +381,49 @@ the 'App Engine Studio Users' group.
 ## Pipeline and Deployment Guided Setup
 *Part of: How do I configure App Engine Studio?*
 
+Once App Engine Studio Guided Setup has been completed, administrators must complete the Pipeline and Deployment Guided Setup activities.
 
-Once App Engine Studio Guided Setup has been completed, administrators
-must complete the Pipeline and Deployment Guided Setup activities.
+Pipelines enable you to automate the propagation and installation of your applications from one instance to another. Pipelines are powered by the ServiceNow CI / CD spoke, which enables you to automate processes such as publishing applications to the application repository, installing them on target instances, and running ATF tests and/or instance scans.
 
-Pipelines enable you to automate the propagation and installation of
-your applications from one instance to another. Pipelines are powered
-by the ServiceNow CI / CD spoke, which enables you to automate
-processes such as publishing applications to the application
-repository, installing them on target instances, and running ATF tests
-and/or instance scans.
+To access the Pipeline and Deployment Guided Setup, navigate to **App Engine Studio \Pipelines and Deployment \Guided Setup**.
 
-To access the Pipeline and Deployment Guided Setup, navigate to **App
-Engine Studio \Pipelines and Deployment \Guided Setup**.
+Pipeline and Deployment Guided Setup activities do not sync across instances and Pipeline configuration activities are required on all instances (production and sub-production).
 
-Pipeline and Deployment Guided Setup activities do not sync across
-instances and Pipeline configuration activities are required on all
-instances (production and sub-production).
-
-Refer to the process flow on page **[9]** for an overview
-of the Pipeline and Deployment Guided Setup.
+Refer to the process flow on page **[9]** for an overview of the Pipeline and Deployment Guided Setup.
 
 ![](/images/image14.jpeg)
 
+***Note**: Before beginning Pipelines and Deployment Studio Guided Setup, ensure your application*
 
-***Note**: Before beginning Pipelines and Deployment Studio Guided
-Setup, ensure your application*
-
-*scope is set to '**Deployment Pipeline**'. If not, use the
-application picker to change the current session's scope*
+*scope is set to '**Deployment Pipeline**'. If not, use the application picker to change the current session's scope*
 
 ![](/images/image15.png)
 
-
 1.  **[Configure your production instance]**
 
-In the [production] instance, complete the following steps
-to configure environments and deployment pipelines to streamline your
-application deployment process**.**
+In the [production] instance, complete the following steps to configure environments and deployment pipelines to streamline your application deployment process**.**
 
-**Complete these tasks only if you are logged into your production
-instance.**
+**Complete these tasks only if you are logged into your production instance.**
 
 a.  **Install 'Deployment Pipeline' plugin in production instance**
 
-To install the Deployment Pipeline plugin,
-(***com.snc.deployment-pipeline**)*, login to your production instance
-and navigate to **System Definition \Plugins.**
+To install the Deployment Pipeline plugin, (***com.snc.deployment-pipeline**)*, login to your production instance and navigate to **System Definition \Plugins.**
 
 Use the search criteria to find the application. Click **Install**.
 
 ![](/images/image16.png)
 
-***Note:** If you have already installed the App Engine Studio bundle
-in the development instance and promoted up to production, skip this
-step*
+***Note:** If you have already installed the App Engine Studio bundle in the development instance and promoted up to production, skip this step*
 
 b.  **Configure credentials in production instance**
 
-Credentials allow your production instance to communicate with sub-
-production instances.
+Credentials allow your production instance to communicate with sub-production instances.
 
-In production, navigate to Connections & Credentials \Connection &
-Credential Aliases.
+In production, navigate to Connections & Credentials \Connection & Credential Aliases.
 
-Only users assigned the admin role can create and update Credential
-Alias records.
+Only users assigned the admin role can create and update Credential Alias records.
 
 ![](/images/image17.png)
-
 
 Credential Alias
 
@@ -599,63 +468,36 @@ Credential Alias
 +----------------+-----------------------------------------------------+
 ```
 
-Based on the credential information, take the appropriate approach in
-configuring Credential Alias records:
+Based on the credential information, take the appropriate approach in configuring Credential Alias records:
 
--   If all environments in the Deployment Pipeline will use the
-    [same] credential information (same username /
-    password), then only [one] Credential Alias record will
-    be configured in production
-
+-   If all environments in the Deployment Pipeline will use the [same] credential information (same username/password), then only [one] Credential Alias record will be configured in production
     -   i.e., single Credential Alias record named '*Pipeline
         Credentials'*
 
--   However, if each environment in the Deployment Pipeline will use
-    different credentials (different usernames / passwords), then
-    Credential Alias records will be created for each instance in the
-    production instance
+-   However, if each environment in the Deployment Pipeline will use different credentials (different usernames / passwords), then Credential Alias records will be created for each instance in the production instance
 
-    -   i.e., multiple Credential Alias records named 'Dev Credentials',
-        'Test Credentials', 'Stage Credentials', and 'Prod Credentials'
+    -   i.e., multiple Credential Alias records named 'Dev Credentials', 'Test Credentials', 'Stage Credentials', and 'Prod Credentials'
 
-Once the necessary Credential Alias record(s) have been created,
-navigate
-
-to the 'Credentials' Related List and click New to add credential
+Once the necessary Credential Alias record(s) have been created, navigate to the 'Credentials' Related List and click New to add credential
 details.
 
-Select Basic Auth Credentials to populate the Basic Auth Credential
-form (currently, this is the only Credential type supported by App
-Engine Studio).
+Select Basic Auth Credentials to populate the Basic Auth Credential form (currently, this is the only Credential type supported by App Engine Studio).
 
 ![](/images/image18.jpeg)
 
+It is recommended to use a username / password for a service account so that the password does not expire or change. The account [must exist in the] [target instance(s) and have admin permissions.]
 
-It is recommended to use a username / password for a service account
-so that the password does not expire or change. The account [must
-exist in the] [target instance(s) and have admin
-permissions.]
-
-*For more information, see [[Product Documentation: Create a
-Connection
-&]](https://docs.servicenow.com/csh?topicname=connection-alias.html)
-[[Credential
-Alias]](https://docs.servicenow.com/csh?topicname=connection-alias.html)*
+*For more information, see [[Product Documentation: Create a Connection & Credential Alias]](https://docs.servicenow.com/csh?topicname=connection-alias.html)*
 
 c.  **Configure environments in production instance**
 
-Set up and configure the environments that will be included within
-your pipelines. These will be referenced when building your pipelines.
+Set up and configure the environments that will be included within your pipelines. These will be referenced when building your pipelines.
 
-Your production instance is where your pipeline configurations reside
-and will be your controller instance.
+Your production instance is where your pipeline configurations reside and will be your controller instance.
 
-**The 'Is Controller?' box will be [checked] on your
-production instance only. This box will be [unchecked] for
-all sub-production Environment records.**
+**The 'Is Controller?' box will be [checked] on your production instance only. This box will be [unchecked] for all sub-production Environment records.**
 
 ![](/images/image19.jpeg)
-
 
 **Environments**
 
@@ -719,17 +561,13 @@ all sub-production Environment records.**
 +----------------+-----------------------------------------------------+
 ```
 
-*For more information, see [[Product Documentation: Define
-environments]](https://docs.servicenow.com/csh?topicname=create-environment.html)*
+*For more information, see [[Product Documentation: Define environments]](https://docs.servicenow.com/csh?topicname=create-environment.html)*
 
 a.  **Configure pipelines in production instance**
 
-A pipeline defines the path an application takes from the development
-to production environments and allows administrators to quickly move
-applications across instances.
+A pipeline defines the path an application takes from the development to production environments and allows administrators to quickly move applications across instances.
 
-Set up and configure your pipelines by specifying the environments to
-include along with their position in the pipeline.
+Set up and configure your pipelines by specifying the environments to include along with their position in the pipeline.
 
 ![](/images/image20.png)
 
@@ -773,26 +611,15 @@ include along with their position in the pipeline.
 +----------------+-----------------------------------------------------+
 ```
 
-Once a pipeline has been created, use the **Pipeline Environments
-Order** Related List on the Pipeline record to configure the instance
-order for the pipeline. Create a record in the related list for all
-instances *[except]* the development instance and specify
-the environment's order within the pipeline.
+Once a pipeline has been created, use the **Pipeline Environments Order** Related List on the Pipeline record to configure the instance order for the pipeline. Create a record in the related list for all instances *[except]* the development instance and specify the environment's order within the pipeline.
 
-Application movement across pipelines is dictated by the order of the
-environments in the Pipeline Environment Order related list, and
-applications are promoted based on ascending 'Order' values.
+Application movement across pipelines is dictated by the order of the environments in the Pipeline Environment Order related list, and applications are promoted based on ascending 'Order' values.
 
-Be sure the environment order is consistent with the defined instance
-strategy. The production instance should have the highest 'Order'
-value *(i.e., Testing: 100, Staging: 200, Production: 300).*
+Be sure the environment order is consistent with the defined instance strategy. The production instance should have the highest 'Order' value *(i.e., Testing: 100, Staging: 200, Production: 300).*
 
 ![](/images/image21.jpeg)
 
-
-***Note:** Since the development environment is already identified as
-the 'Source Environment' on the Pipeline record, a Pipeline
-Environment Order related record is not required*
+***Note:** Since the development environment is already identified as the 'Source Environment' on the Pipeline record, a Pipeline Environment Order related record is not required*
 
 **Pipeline Environment Orders**
 ```
@@ -821,39 +648,25 @@ Environment Order related record is not required*
 +----------------+-----------------------------------------------------+
 ```
 
-*For more information, see [[Product Documentation: Create a
-pipeline]](https://docs.servicenow.com/csh?topicname=create-pipeline.html)*
+*For more information, see [[Product Documentation: Create a pipeline]](https://docs.servicenow.com/csh?topicname=create-pipeline.html)*
 
 b.  **Add users to the App Engine Studio Administrators group in production instance**
 
-Configure App Engine Studio administrator group membership in the
-[production] instance to manage application intake and
-deployment requests.
+Configure App Engine Studio administrator group membership in the [production] instance to manage application intake and deployment requests.
 
-Ensure the group membership in [production] is consistent
-with the App Engine Studio administrators identified in the
-[development] instance.
+Ensure the group membership in [production] is consistent with the App Engine Studio administrators identified in the [development] instance.
 
-Group membership does not sync between environments and must be
-updated in both production and development.
+Group membership does not sync between environments and must be updated in both production and development.
 
-***Note:** If group membership is empty in the production instance, or
-if the Deployment Pipeline plugin is not installed, the system will
-refer to App Engine Studio Administrator group membership in the
-development instance*
+***Note:** If group membership is empty in the production instance, or if the Deployment Pipeline plugin is not installed, the system will refer to App Engine Studio Administrator group membership in the development instance*
 
 2.  **[Configure sub-production instances]**
 
-Follow the steps below to install the 'Deployment Pipeline' plugin in
-each [sub-] [production] instance.
+Follow the steps below to install the 'Deployment Pipeline' plugin in each [sub-] [production] instance.
 
-Once installed, you will be required to configure an environment
-record in each instance which points to the production (controller)
-instance.
+Once installed, you will be required to configure an environment record in each instance which points to the production (controller) instance.
 
-You will also enable the system properties that will allow the
-Automated Test Framework (ATF) suite to run during the deployment
-process.
+You will also enable the system properties that will allow the Automated Test Framework (ATF) suite to run during the deployment process.
 
 **Complete these tasks only if you are logged into a sub-production instance.**
 
@@ -873,61 +686,36 @@ Repeat and install the Deployment Pipeline plugin in each sub-production instanc
 
 b.  **Configure credentials in each sub-production instance**
 
-In each sub-production instance, create a Credential Alias record and
-associate the Credentials for the production instance.
+In each sub-production instance, create a Credential Alias record and associate the Credentials for the production instance.
 
-Navigate to Connections & Credentials \Connection & Credential
-Aliases.
+Navigate to Connections & Credentials \Connection & Credential Aliases.
 
-Based on the credential information, take the appropriate approach in
-configuring Credential Alias records:
+Based on the credential information, take the appropriate approach in configuring Credential Alias records:
 
 ![](/images/image17.png)
 
 
--   If all environments in the Deployment Pipeline will use the
-    [same] credential information (same username /
-    password), then create a
-
-single Credential Alias record with the same details as the Credential
-Alias created in the production instance
+-   If all environments in the Deployment Pipeline will use the [same] credential information (same username / password), then create a single Credential Alias record with the same details as the Credential Alias created in the production instance
 
 -   i.e., single Credential Alias record named '*Pipeline Credentials'*
 
--   If each environment in the Deployment Pipeline will use
-    [different] credentials (different usernames /
-    passwords), then create a single Credential Alias records with the
-    credential details for the production instance
+-   If each environment in the Deployment Pipeline will use [different] credentials (different usernames / passwords), then create a single Credential Alias records with the credential details for the production instance
 
     -   i.e., single Credential Alias records named '*Prod Credentials'*
 
 **Repeat this task on each sub-production instance that will be part of a pipeline,**
 
-***Note**: Ensure the username(s) and password(s) provided exist in
-the production instance and the User is assigned the correct roles.*
+***Note**: Ensure the username(s) and password(s) provided exist in the production instance and the User is assigned the correct roles.*
 
-c.  **Configure the controller instance in each sub-production
-    instance**
+c.  **Configure the controller instance in each sub-production instance**
 
-In each sub-production instance, set up and configure the Environment
-record which will point to the controller instance
-([production] instance), where the Deployment Pipeline
-configurations reside.
+In each sub-production instance, set up and configure the Environment record which will point to the controller instance ([production] instance), where the Deployment Pipeline configurations reside.
 
-All deployment requests are routed through the controller instance.
-Until this is configured, your developers will not be able to submit
-deployment requests.
+All deployment requests are routed through the controller instance. Until this is configured, your developers will not be able to submit deployment requests.
 
-If a Credential Alias record for the controller (production) instance
-has not been created in each sub-production instance, you must create
-a Credential Alias record pointing to the controller instance in each
-sub-production instance.
+If a Credential Alias record for the controller (production) instance has not been created in each sub-production instance, you must create a Credential Alias record pointing to the controller instance in each sub-production instance.
 
-If App Engine Studio is the only application using the Credentials
-table, consider creating data preservers for Credential Alias, Basic
-Auth, and Discovery credentials -- otherwise, ensure that these tables
-are not overwritten when the production instance is cloned down to
-sub-production instances.
+If App Engine Studio is the only application using the Credentials table, consider creating data preservers for Credential Alias, Basic Auth, and Discovery credentials -- otherwise, ensure that these tables are not overwritten when the production instance is cloned down to sub-production instances.
 
 App Engine Studio has data preservers on the following tables:
 -   Pipeline Instance
@@ -953,21 +741,13 @@ After cloning, a post-clone clean-up script is needed to reassign users and grou
 
 **Repeat this task on each sub-production instance that will be part of a pipeline**
 
-***Note:** New App Engine Studio customers (Tokyo +) will only have
-data preservers on the tables listed above. Existing customers
-(pre-Tokyo) will also have data preservers on the following tables :
-Pipeline, Environment. Pipeline Environment Order, Pipeline Types*
+***Note:** New App Engine Studio customers (Tokyo +) will only have data preservers on the tables listed above. Existing customers (pre-Tokyo) will also have data preservers on the following tables : Pipeline, Environment. Pipeline Environment Order, Pipeline Types*
 
-a.  **Enable Automated Test Framework (ATF) properties (*testing
-    instance only*)**
+a.  **Enable Automated Test Framework (ATF) properties (*testing instance only*)**
 
-Enable the system properties that will allow the ATF suite to run in
-the testing instance as part of the deployment process.
+Enable the system properties that will allow the ATF suite to run in the testing instance as part of the deployment process.
 
-App Engine Studio ships with an out-of-box test suite as a
-placeholder, however you are responsible for configuration of the ATF
-tests. If the out-of- box suite is not modified, they will still run
-but will not impact the flow.
+App Engine Studio ships with an out-of-box test suite as a placeholder, however you are responsible for configuration of the ATF tests. If the out-of- box suite is not modified, they will still run but will not impact the flow.
 
 ![](/images/image23.jpeg)
 
@@ -978,24 +758,17 @@ but will not impact the flow.
         -   **Enable scheduled test suite execution *(sn_atf.schedule.enabled)***
     -   The 'Enable test / test suite execution' property must be enabled to enable this property
 
--   Check this box on the ***[testing]*** instance to enable
-    scheduled automated test suites to run as part of the application
-    deployment process
+-   Check this box on the ***[testing]*** instance to enable scheduled automated test suites to run as part of the application deployment process
 
--   The default value is false so that ATF tests do not run on
-    production instances
+-   The default value is false so that ATF tests do not run on production instances
 
--   This property is private; changes to its value will not move between
-    instances
+-   This property is private; changes to its value will not move between instances
 
-If you do not enable these properties on the testing instance you will
-receive a warning during the deployment process, but you will be able
-to continue with deployment and the flow will continue.
+If you do not enable these properties on the testing instance you will receive a warning during the deployment process, but you will be able to continue with deployment and the flow will continue.
 
 **Enable ATF properties in your production instance if you plan to clone!**
 
-***Note**: Ensure that the controller instance was configured on all
-sub-production instances that are part of a pipeline!*
+***Note**: Ensure that the controller instance was configured on all sub-production instances that are part of a pipeline!*
 
 [Back to top](#top){: .btn .btn-purple }
 
@@ -1215,64 +988,40 @@ Each time an application is promoted to a new instance administrators will be as
 
 Once an application has been promoted to the Testing instance, it should be thoroughly tested and reviewed by the application developer, experienced ServiceNow developers, and functional IT resources to ensure that the application works as expected and existing platform functionality is not impacted. Assign application roles in the test environment appropriately so that users can complete necessary testing activities.
 
-As part of the application deployment process, Automated Test Framework (ATF) tests / suites and Instance Scan definitions will automatically run when the application is promoted to an instance of Type = Testing (if multiple instances are configured with Type = Testing, then the test suites and definitions will run on each instance). ATF and Instance Scan results will be logged in the Notes section of the Deployment Request and available in the 'Deployment Environment Results' related list.
+As part of the application deployment process, Automated Test Framework (ATF) tests / suites and Instance Scan definitions will automatically run when the application is promoted to an instance of Type = Testing (if multiple instances are configured with Type = Testing, then the test suites and definitions will run on each instance). ATF and Instance Scan results will be logged in the Notes section of the Deployment Request and available in the 'Deployment
+Environment Results' related list.
 
-As your citizen development program scales, consider implementing an application 'risk profile' to dictate the level of testing required to
-more efficiently allocate testing resources. For example, an
-application containing a Script Include will have a higher risk
-profile than an application built with a template and minimal
-configurations, and therefore will require more rigorous testing).
+As your citizen development program scales, consider implementing an application 'risk profile' to dictate the level of testing required to more efficiently allocate testing resources. For example, an application containing a Script Include will have a higher risk profile than an application built with a template and minimal configurations, and therefore will require more rigorous testing).
 
 ## Reject an application {#reject-an-application}
 
-If an application fails testing or requires additional development
-work, administrators can reject an application by clicking
-**'**Reject' on the assigned approval record.
+If an application fails testing or requires additional development work, administrators can reject an application by clicking **'Reject'** on the assigned approval record.*
 
-If you reject an application, provide clear feedback to developer(s)
-so they can quickly correct the configurations. The Deployment Request
-'State' will change to **Closed -- Rejected** and the requestor will
-receive an email notification informing of the rejection.
+If you reject an application, provide clear feedback to developer(s) so they can quickly correct the configurations. The Deployment Request 'State' will change to **Closed -- Rejected** and the requestor will receive an email notification informing of the rejection.
 
-Application developers can incorporate feedback and continue to submit
-the application for IT review.
+Application developers can incorporate feedback and continue to submit the application for IT review.
 
 *For more information, see:*
 
--   [*[Product Documentation: Deployment Request
-    form]*](https://docs.servicenow.com/csh?topicname=deployment-request-form.html)
+-   [*[Product Documentation: Deployment Request form]*](https://docs.servicenow.com/csh?topicname=deployment-request-form.html)
 
--   [*[Product Documentation: Move an application to your test
-    environment]*](https://docs.servicenow.com/csh?topicname=move-app-instance.html)
+-   [*[Product Documentation: Move an application to your test environment]*](https://docs.servicenow.com/csh?topicname=move-app-instance.html)
 
--   [*[Product Documentation: Reject an
-    application]*](https://docs.servicenow.com/csh?topicname=approve-reject-app.html)
+-   [*[Product Documentation: Reject an application]*](https://docs.servicenow.com/csh?topicname=approve-reject-app.html)
 
 # How do I deploy applications to production in App Engine Studio? {#how-do-i-deploy-applications-to-production-in-app-engine-studio}
 
-Once an application has successfully completed all testing activities
-from required reviewers, it is ready to be promoted to the production
-instance.
+Once an application has successfully completed all testing activities from required reviewers, it is ready to be promoted to the production instance.
 
-When administrators approve an application to promote an application
-to production, the Deployment Request 'State' will change to **Closed
--- Published**. The application will be published to the application
-repository and installed on the production instance. Assign roles
-appropriately so that users can access the application across
-instances, as necessary.
+When administrators approve an application to promote an application to production, the Deployment Request 'State' will change to **Closed -- Published**. The application will be published to the application repository and installed on the production instance. Assign roles appropriately so that users can access the application across instances, as necessary.
 
 ![](/images/image32.png)
-
-
+ 
 For more information, see:
 
-*[[Product Documentation: Deploy an
-application]](https://docs.servicenow.com/csh?topicname=deploy-app.html)
-[[Product Documentation: Application
-sharing]](https://docs.servicenow.com/csh?topicname=c_SharingApplications.html)*
-
-[*[Product Documentation: Publish an application to the application
-repository]*](https://docs.servicenow.com/csh?topicname=t_PublishAppsToTheAppRepository.html)
+- [[*Product Documentation: Deploy an application*]](https://docs.servicenow.com/csh?topicname=deploy-app.html)
+- [[*Product Documentation: Application sharing*]](https://docs.servicenow.com/csh?topicname=c_SharingApplications.html)
+- [[*Product Documentation: Publish an application to the application repository]*](https://docs.servicenow.com/csh?topicname=t_PublishAppsToTheAppRepository.html)
 
 [Back to top](#top){: .btn .btn-purple }
 

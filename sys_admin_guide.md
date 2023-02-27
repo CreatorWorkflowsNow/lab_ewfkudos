@@ -1029,27 +1029,17 @@ For more information, see:
 
 # How do I create application templates? {#how-do-i-create-application-templates}
 
-App Engine Studio offers developers pre-configured application
-templates that can be used to jumpstart development and accelerate
-time to value. In addition to the out-of-box templates, App Engine
-Studio Administrators can configure custom templates for their
-developers.
+App Engine Studio offers developers pre-configured application templates that can be used to jumpstart development and accelerate time to value. In addition to the out-of-box templates, App Engine Studio Administrators can configure custom templates for their developers.
 
 ![](/images/image33.png)
 
-These templates can be configured with pre-defined Data, Experiences,
-Logic and Automation, and Security features, based on common use cases
-across the organization.
+These templates can be configured with pre-defined Data, Experiences, Logic and Automation, and Security features, based on common use cases across the organization.
 
 ![](/images/image34.jpeg)
 
+Custom application templates can be created from existing applications, or from scratch. Once a template has been configured, make it available to developers by publishing it in App Engine Studio.
 
-Custom application templates can be created from existing
-applications, or from scratch. Once a template has been configured,
-make it available to developers by publishing it in App Engine Studio.
-
-*For more information, see [[Product Documentation: Custom
-templates]](https://docs.servicenow.com/csh?topicname=work-custom-templates.html)*
+*For more information, see [[Product Documentation: Custom templates]](https://docs.servicenow.com/csh?topicname=work-custom-templates.html)*
 
 [Back to top](#top){: .btn .btn-purple }
 
@@ -1059,83 +1049,53 @@ templates]](https://docs.servicenow.com/csh?topicname=work-custom-templates.html
 
 **Manage applications created in App Engine Studio**
 
-Details for applications created in App Engine Studio are accessible
-by navigating to
-
-**System Applications \My Company Applications.**
-
-Administrators can access the following custom application data:
-application files, version, scope, dependencies, roles, and
-navigation. Applications can be published to an update set, if needed.
+Details for applications created in App Engine Studio are accessible by navigating to **System Applications \My Company Applications.** Administrators can access the following custom application data: application files, version, scope, dependencies, roles, and navigation. Applications can be published to an update set, if needed.
 
 **App Engine Studio Properties**
 
-Administrators can manage the App Engine Studio application properties
-in App Engine Studio by navigating to **App Engine Studio \>
-Configuration \Properties.**
+Administrators can manage the App Engine Studio application properties in App Engine Studio by navigating to **App Engine Studio \> Configuration \Properties.**
 
 **Pipelines**
 
-Pipelines dictate the deployment path for App Engine Studio
-applications from development to production.
+Pipelines dictate the deployment path for App Engine Studio applications from development to production.
 
-To create or edit pipeline configurations, navigate to **App Engine
-Studio \Pipelines and Deployments \Pipelines.**
+To create or edit pipeline configurations, navigate to **App Engine Studio \Pipelines and Deployments \Pipelines.**
 
 **Environments**
 
-Define the environments used in deployment pipelines to move
-applications across an organization. To create or edit environments,
-navigate to **App Engine Studio \Pipelines and Deployments \>
-Environments.**
+Define the environments used in deployment pipelines to move applications across an organization. To create or edit environments, navigate to **App Engine Studio \Pipelines and Deployments \> Environments.**
 
 **Application Intake Process**
 
-Refine the intake request form by modifying the related Service
-Catalog items and customize the application intake approval process by
-modifying the approval flow for the item.
+Refine the intake request form by modifying the related Service Catalog items and customize the application intake approval process by modifying the approval flow for the item.
 
-*For more information, see [[Product Documentation: Service catalog
-items]](https://docs.servicenow.com/csh?topicname=c_IntroductionToCatalogItems.html)
-For more information, see [[Product Documentation:
-Flows]](https://docs.servicenow.com/csh?topicname=flows.html)*
+*For more information, see [[Product Documentation: Service catalog items]](https://docs.servicenow.com/csh?topicname=c_IntroductionToCatalogItems.html)*
+*For more information, see [[Product Documentation: Flows]](https://docs.servicenow.com/csh?topicname=flows.html)*
 
 **Integrations and Spokes**
 
-Manage integrations with third-party systems via IntegrationHub.
-Integration spokes can be downloaded from the ServiceNow Store and
-must be installed to connect to App Engine Studio.
+Manage integrations with third-party systems via IntegrationHub. Integration spokes can be downloaded from the ServiceNow Store and must be installed to connect to App Engine Studio.
 
-[]{#_bookmark26 .anchor}*For more information, see [[Product
-Documentation:
-IntegrationHub]](https://docs.servicenow.com/csh?topicname=integrationhub.html)*
+*For more information, see [[Product Documentation: IntegrationHub]](https://docs.servicenow.com/csh?topicname=integrationhub.html)*
 
 **Instance Scans**
 
-Configure Instance Scan definitions to ensure adherence to application
-development and organizational best practices.
+Configure Instance Scan definitions to ensure adherence to application development and organizational best practices.
 
-Instance Scan definitions are executed when App Engine Studio
-applications are promoted to the test instance and can also be
+Instance Scan definitions are executed when App Engine Studio applications are promoted to the test instance and can also be
 executed ad-hoc.
 
-*For more information, see [[Product Documentation: Instance
-Scan]](https://docs.servicenow.com/csh?topicname=hs-landing-page.html)*
+*For more information, see [[Product Documentation: Instance Scan]](https://docs.servicenow.com/csh?topicname=hs-landing-page.html)*
 
 **Automated Test Framework (ATF)**
 
-Automate testing activities by creating ATF suites and tests for
-custom applications.
+Automate testing activities by creating ATF suites and tests for custom applications.
 
-At a minimum, simple regression tests should be required for all
-citizen-developed applications.
+At a minimum, simple regression tests should be required for all citizen-developed applications.
 
-ATF suites and tests are executed when App Engine Studio applications
-are promoted to the test instance and can also be executed ad-hoc.
+ATF suites and tests are executed when App Engine Studio applications are promoted to the test instance and can also be executed ad-hoc.
 
-*For more information, see [[Product Documentation: Automated Test
-Framework
-(ATF)]](https://docs.servicenow.com/csh?topicname=automated-test-framework.html)*
+*For more information, see [[Product Documentation: Automated Test Framework (ATF)]](https://docs.servicenow.com/csh?topicname=automated-test-framework.html)*
 
 [Back to top](#top){: .btn .btn-purple }
 
@@ -1145,107 +1105,66 @@ Framework
 
 **Can applications be accessed from App Engine Studio to ServiceNow Studio, and vice-versa?**
 
-Yes. Applications built in App Engine Studio are accessible from
-ServiceNow Studio.
+Yes. Applications built in App Engine Studio are accessible from ServiceNow Studio.
 
-All application configurations are captured in the application scope,
-regardless of the development studio the configurations are performed
-in.
+All application configurations are captured in the application scope, regardless of the development studio the configurations are performed in.
 
-There are several capabilities available in ServiceNow Studio that are
-not accessible from App Engine Studio, including business rules,
-client scripts, and notifications.
+There are several capabilities available in ServiceNow Studio that are not accessible from App Engine Studio, including business rules, client scripts, and notifications.
 
 **Does App Engine Studio support domain separation?**
 
-Domain separation is not supported for App Engine Studio. The domain
-field may exist on data tables, but there is no business logic to
-manage the data.
+Domain separation is not supported for App Engine Studio. The domain field may exist on data tables, but there is no business logic to manage the data.
 
-**Can App Engine Studio applications be integrated with other
-applications outside of ServiceNow?**
+**Can App Engine Studio applications be integrated with other applications outside of ServiceNow?**
 
-Yes, App Engine Studios can interact with third-party systems by
-leveraging IntegrationHub spokes / actions exposed through Flow
-Designer.
+Yes, App Engine Studios can interact with third-party systems by leveraging IntegrationHub spokes / actions exposed through Flow Designer.
 
-**How can I safely expose third-party integrations in App Engine
-Studio?**
+**How can I safely expose third-party integrations in App Engine Studio?**
 
-Consider pre-configuring authorized sub-flows for application
-developers to use when sharing data with third-party systems instead
-of allowing App Engine Studio developers to access IntegrationHub
-actions via Flow Designer.
+Consider pre-configuring authorized sub-flows for application developers to use when sharing data with third-party systems instead of allowing App Engine Studio developers to access IntegrationHub actions via Flow Designer.
 
-This way, developers are not directly accessing any third-party
-systems, and data is shared and presented in a consistent manner
-across all applications built in App Engine Studio.
+This way, developers are not directly accessing any third-party systems, and data is shared and presented in a consistent manner across all applications built in App Engine Studio.
 
 **How are Deployment Requests created and managed?**
 
-Deployment Requests are generated and assigned to App Engine Studio
-Administrators in the production instance when application developers
-submit an application for IT review.
+Deployment Requests are generated and assigned to App Engine Studio Administrators in the production instance when application developers submit an application for IT review.
 
-**How to enable other applications to read data in the application's
-table(s)?**
+**How to enable other applications to read data in the application's table(s)?**
 
-Update the 'Application Access' property for each table in an
-application to make its data accessible to other applications.
+Update the 'Application Access' property for each table in an application to make its data accessible to other applications.
 
-**Are App Engine Studio applications built in a private application
-scope?**
+**Are App Engine Studio applications built in a private application scope?**
 
 Yes, each application is developed in its own scope.
 
 **How do I upgrade the App Engine Studio application?**
 
-Administrators can update the App Engine Studio application in the
-ServiceNow Store.
+Administrators can update the App Engine Studio application in the ServiceNow Store.
 
-**How can I manage developers of varying experience and skill in App
-Engine Studio?**
+**How can I manage developers of varying experience and skill in App Engine Studio?**
 
-Consider creating multiple development groups in App Engine Studio for
-developers of different skill levels. Leverage delegated development
-to modify group access to builder tools accordingly.
+Consider creating multiple development groups in App Engine Studio for developers of different skill levels. Leverage delegated development to modify group access to builder tools accordingly.
 
-Experienced developers may have more freedom with App Engine Studio
-tools and features than low-code developers, who may have fewer
-permissions in the application.
+Experienced developers may have more freedom with App Engine Studio tools and features than low-code developers, who may have fewer permissions in the application.
 
 **Can I integrate App Engine Studio with Source Control?**
 
-Yes, application developers can integrate with a Git Source Control
-repository to save and manage multiple versions of an application from
-a sub-production instance.
+Yes, application developers can integrate with a Git Source Control repository to save and manage multiple versions of an application from a sub-production instance.
 
 *For more information, see:*
 
--   [*[Product Documentation: Source Control integration in App Engine
-    Studio]*](https://docs.servicenow.com/csh?topicname=aes-source-control-integration.html)
+-   [*[Product Documentation: Source Control integration in App Engine Studio]*](https://docs.servicenow.com/csh?topicname=aes-source-control-integration.html)
 
--   [*[Home - ServiceNow
-    Developers]*](https://developer.servicenow.com/)
+-   [*[Home - ServiceNow Developers]*](https://developer.servicenow.com/)
 
-**Can I turn off the automatic execution of ATF tests and Instance
-Scan definitions?**
+**Can I turn off the automatic execution of ATF tests and Instance Scan definitions?**
 
-No, unless a new flow is created and the 'Deployment Environment Type
-Flow' Decision Table \[**sys_decision**\] is updated to point to the
-new flow for environments with instance type of 'Testing'.
+No, unless a new flow is created and the 'Deployment Environment Type Flow' Decision Table \[**sys_decision**\] is updated to point to the new flow for environments with instance type of 'Testing'.
 
-If the ATF system properties are not enabled in the testing instance
-as part of the guided setup, you will receive a warning during
-deployment, however the flow will continue.
+If the ATF system properties are not enabled in the testing instance as part of the guided setup, you will receive a warning during deployment, however the flow will continue.
 
-If the out-of-box test suite is not modified, they will run but will
-also not affect the flow.
+If the out-of-box test suite is not modified, they will run but will also not affect the flow.
 
-**Can I change the instance where ATF tests and Instance Scan
-definitions are executed?**
+**Can I change the instance where ATF tests and Instance Scan definitions are executed?**
 
-Yes, this can be accomplished by updating the 'Instance Type' value
-for an Environment record to 'Testing'. Alternatively, the decision
-table can be modified to make the decision for 'Instance Type =
-Staging' (for example) point to the Testing sub-flow.
+Yes, this can be accomplished by updating the 'Instance Type' value for an Environment record to 'Testing'. Alternatively, the decision table can be modified to make the decision for 'Instance Type = Staging' (for example) point to the Testing sub-flow.

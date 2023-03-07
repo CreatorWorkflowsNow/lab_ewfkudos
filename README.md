@@ -1,42 +1,28 @@
-# App Engine Management Center Lab
+# Kudos App - Extending HRSD with App Engine Lab
 
 ## Table of contents
-- [Introduction](#Introduction)
-- [Requirements](#Requirements)
-- [Installation](#Installation)
-- [Configuration](#Configuration)
-- [Troubleshooting](#Troubleshooting)
-- [FAQ](#FAQ)
-- [Maintainers](#Maintainers)
+- [Kudos App - Extending HRSD with App Engine Lab](#kudos-app---extending-hrsd-with-app-engine-lab)
+  - [Table of contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Requirements](#requirements)
+  - [Installation](#installation)
+  - [Configuration](#configuration)
+  - [Troubleshooting](#troubleshooting)
+  - [FAQ](#faq)
+  - [Maintainers](#maintainers)
+  - [Extra Links](#extra-links)
 
 ## Introduction
 
-This is the repo for the Lab Guide **App Engine Management Center**. 
+This is the repo for the Lab Guide **Kudos App - Extending HRSD with App Engine**. 
 
-In the lab, you will get hands-on experience setting up and managing AEMC.
+In the lab, you will get hands-on experience building a low-code application to support the submissions of kudos.
 
-Concepts include Pipelines and Deployments, Onboarding Developers, and App Collaborations.
+Concepts include data model, experiences, and automation.
 
-Lab Guide: https://creatorworkflowsnow.github.io/lab_aemc
+Lab Guide: https://creatorworkflowsnow.github.io/lab_ewfkudos
 
-AEMC Documentation: https://docs.servicenow.com/csh?topicname=monitor-requests-using-aemc.html&version=latest
-
-## Features Include
-1) App Engine Studio Setup
-2) Pipeline and Deployment Setup
-3) App Intake Setup
-4) Collaboration and Delegated Development
-5) App Intake Requests
-6) App Deployment Requests
-7) Promote an app in a pipeline
-8) Review and test an application
-9) Reject an application
-10) Deploy applications to production in App Engine Studio
-11) Create application templates
-12) Manage App Engine Studio properties and processes
-13) FAQs
-
-Submit bug reports and feature suggestions, or track changes by contacting [Dale Stubblefield](mailto:dale.stubblefield@servicenow.com).
+Submit bug reports and feature suggestions, or track changes by contacting [Kristy Merriam](mailto:kristy.merriam@servicenow.com).
 
 ## Requirements
 
@@ -66,10 +52,10 @@ Commit code to the main branch to regenerate content. A GitHub Action will autom
 
 ## Maintainers
 
-- Dale Stubblefield - https://github.com/dalestubblefield
+- Kristy Merriam - https://github.com/KristyS96
 
 ## Extra Links
 * README_md In Browser editor (https://stackedit.io/)
 
 ----
-[![pages-build-deployment](https://github.com/CreatorWorkflowsNow/lab_aemc/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/CreatorWorkflowsNow/lab_aemc/actions/workflows/pages/pages-build-deployment)
+[![pages-build-deployment](https://github.com/CreatorWorkflowsNow/lab_ewfkudos/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/CreatorWorkflowsNow/lab_ewfkudos/actions/workflows/pages/pages-build-deployment)
